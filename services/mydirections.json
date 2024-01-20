@@ -1,1 +1,1346 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ6SXZzA-r0kwREXIlXE-KiiY",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "university"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJT5jSUKur0kwR9oJUbsZXFQk",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJryLPHVVJ1okRIvkoUFOQQ3E",
+         "types" : 
+         [
+            "establishment",
+            "park",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJq6p6ZumM1YkRwlenRs5y5SY",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "university"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 44.3466591,
+               "lng" : -76.4997688
+            },
+            "southwest" : 
+            {
+               "lat" : 43.9037279,
+               "lng" : -78.7437003
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "5.7 km",
+                  "value" : 5681
+               },
+               "duration" : 
+               {
+                  "text" : "10 mins",
+                  "value" : 580
+               },
+               "end_address" : "1355 John Counter Blvd, Kingston, ON K7K 0E5, Canada",
+               "end_location" : 
+               {
+                  "lat" : 44.26014199999999,
+                  "lng" : -76.51501589999999
+               },
+               "start_address" : "99 University Ave, Kingston, ON K7L 3N6, Canada",
+               "start_location" : 
+               {
+                  "lat" : 44.2273174,
+                  "lng" : -76.4997688
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1065
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 100
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2238158,
+                        "lng" : -76.5121874
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eUnion St\u003c/b\u003e toward \u003cb\u003eCollingwood St\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "wc}lGpj|qMLlAl@zFFh@BVFb@Hl@RfA`AvELf@f@hCZxA~@lE`@hBDTt@jDr@lDTfA`@nBd@zBpAlGNp@Z|ABPF\\"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2273174,
+                        "lng" : -76.4997688
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.1 km",
+                        "value" : 4097
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 400
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2589356,
+                        "lng" : -76.51912899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSir John A. Macdonald Blvd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{m|lGdx~qMAj@AF?@CJCFCD?@CBEDIJsAReDRkDPqBJu@DmDR}@F[DWBUDUDSFUHSJSHULQJKHm@^SJSNQJSJUJQFA?SHWDQBUBS@{@BSBo@BiBF}CLcDNK@i@D_@Bi@DiABkCNC?K@I@ODOBMDOFMFMFKFMHMJMJMJ[^Y\\WZGHEFMRk@r@KLq@r@gDzDk@p@CDwBdC[\\ONQLSLEBMFSJWHOFK@MBQDi@FcAHU?g@@w@DaA?}@FQ@}@By@BS?w@Bs@@{@@cABWAg@CQAM?QC]ICAIEIEUQSOq@g@a@]e@_@KMYYOKSOQISIQEWESCWAM?I?YB}AHwAHqADuBIs@@qBVuA?G?w@BcA@o@@Q@m@Bg@@}AL]Dw@H}@Pm@Fe@HoALUD[De@D_@Bc@Ds@ByADaABeABm@Bc@Bc@?O?S@m@B}@BE?iCFa@@oADg@@[@gABmAD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2238158,
+                        "lng" : -76.5121874
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 350
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.25895680000001,
+                        "lng" : -76.5147288
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eJohn Counter Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "kicmGpc`rM@wAAyA?aB?mHA{D?y@Aw@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2589356,
+                        "lng" : -76.51912899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 139
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2601395,
+                        "lng" : -76.51463389999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "oicmG`h_rMS@aABGACCCAMMQMECGAKA_A?KP"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.25895680000001,
+                        "lng" : -76.5147288
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "30 m",
+                        "value" : 30
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.26014199999999,
+                        "lng" : -76.51501589999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{pcmGlg_rM?DAJ@z@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2601395,
+                        "lng" : -76.51463389999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "94.1 km",
+                  "value" : 94121
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 10 mins",
+                  "value" : 4214
+               },
+               "end_address" : "Sandbanks Provincial Park, 3004 County Rd 12, Picton, ON K0K 2T0, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.90697,
+                  "lng" : -77.2392792
+               },
+               "start_address" : "1355 John Counter Blvd, Kingston, ON K7K 0E5, Canada",
+               "start_location" : 
+               {
+                  "lat" : 44.26014199999999,
+                  "lng" : -76.51501589999999
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "30 m",
+                        "value" : 30
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 9
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2601395,
+                        "lng" : -76.51463389999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e toward \u003cb\u003eJohn Counter Blvd\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "{pcmGzi_rMA{@@K?E"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.26014199999999,
+                        "lng" : -76.51501589999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 127
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.25906430000001,
+                        "lng" : -76.5147369
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eJohn Counter Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{pcmGlg_rMJQ~@?J@F@DBPLLLB@BBF@`AC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2601395,
+                        "lng" : -76.51463389999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 321
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 58
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.25906610000001,
+                        "lng" : -76.51876709999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eJohn Counter Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "cjcmGbh_rM@nB?pB?rA?hA?|B?nDCvB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.25906430000001,
+                        "lng" : -76.5147369
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.3 km",
+                        "value" : 2269
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 155
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2738135,
+                        "lng" : -76.52527239999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSir John A. Macdonald Blvd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ejcmGha`rMq@hAs@BeABQ@mAB_ABK?s@B_A@_AB_BDiADa@@c@@O@w@@c@@aABoBB]@mABcBB]@c@?A?a@Bg@@Q@e@BO@A?[@aADq@BC?w@BK?a@@O?U@Q?Y?k@Ci@CaAI}@IiAU_AWe@Og@O{@[mAg@gCgAGCg@Wi@W[M_@O]Oq@Wc@KWAY@C@UDIBMHC?OLCBMLS\\O`@K\\ADANCPC\\AN@t@J~@Hl@Lr@FZF\\Nz@RjAD^Jz@LdB@x@?`AEx@AFAPGn@Ip@EXU`BIj@AFKn@Id@Mv@Ff@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.25906610000001,
+                        "lng" : -76.51876709999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "47.8 km",
+                        "value" : 47774
+                     },
+                     "duration" : 
+                     {
+                        "text" : "26 mins",
+                        "value" : 1546
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2381465,
+                        "lng" : -77.11025780000001
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eON-401 W\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "iffmG|iarMu@`EkBnKi@vCm@fD[bBa@|Bo@lDYdBQtAKt@SvAIt@Ix@Gl@AHMtAGv@KvAKhB[dGQnDInAEz@Ex@Ex@IxAEz@AXMzBIxAGjAALCf@Cp@Gz@Cd@GpAE~@CZA\\CZIxAE|@AVC`@Gx@Ep@MjAMvAGn@K~@Ix@Ij@AHSvAMx@Mv@QhAMr@ShAUhAU`AQz@ENw@hDS~@aEfQ{@rD_AdEe@nBc@nBk@~Bo@tCiA|EMf@m@lCGVWfAg@vBi@~BERGVOl@m@hCGZGTc@jBo@nCYrAGVu@|CKh@Oj@e@dBOb@Sn@a@hA_A~BiA~B[p@}@fBy@bBqB~Du@xAc@x@wBdEkA~Bw@zAm@lAQ`@Uf@IRw@vB_AlDOr@Op@ERADERUpAQlAE^QtAOrBKfBGhAEh@Al@A|@?NAb@?z@@~@?`@Bp@Bv@Br@Bf@Bj@BZBb@@JH`AHx@LbAJv@Hj@?@VvAPx@DRXpARv@Lb@Tr@?@Vx@`AxCRp@BLHX@B\\xAVpA\\pBLx@BNHr@JfAH|@Dn@HhA@\\@TDrA@|@@z@?j@@p@?xA?H?@?n@?p@?p@?bB@r@?r@?tC@`B?r@?~@BjK@pB?nA?p@@tC@`D?|BBvE?XDpH@`CBnO?p@@r@?hA?V?@?@?T@jA?p@@p@?RDpK?Z?@?@?P?Z?@?B@j@?@?BBjKDnJ?p@HnT@p@?@Lj^?p@?\\?\\@tD@rB?\\?@?h@?^@~@?tA?T?J?X?T?f@@|@?d@?V@z@@nA@p@@tAB|ABz@B|@@`@?\\@TBdAB`@@^@\\@\\@Z@^B\\Bv@B|@HzBFzADxANxDBz@?@Bx@FzAF|ABz@@^@JBn@@\\Bz@D~@@n@@J@d@@VDz@@^@b@Dx@PpFDz@D|AFvADvAHvBBx@Bf@Bp@DvAD|@Bx@L|DBp@Bv@D|@B|@Bv@FvADxADz@PlFDz@PlFL|DBp@HvBDxADx@Bz@@x@Bz@@\\?Z?L@l@@^?\\?\\@z@?V@~@?z@?z@@^?z@@x@?|@?Z@z@?|@@vB@pB@vC?B?^@v@?Z@zA?@?x@@`@?L@bC?X@~@?d@?T?v@@Z?@?^?r@@h@?\\?X@|@?h@@hA?B?x@?X?\\@|A@|A?f@@dB@|@?xA@tA?^@r@?f@@vA?|@@z@?`A@r@?V?b@@xA?^@x@@|@?J?N?Z@\\?F?X@v@?`@@|@@r@?|@?@@z@@\\?\\@\\?X?^@\\?^?Z@~@@V?\\@x@?\\?\\@^?R@dA?Z?@@Z?\\?`@@|@?Z@X?\\?\\?Z@\\?`@@v@?b@?V@z@?~@@t@?p@?J?\\@z@?^?Z@\\?z@@x@?D?V?^@z@?\\?D?V@\\?Z@\\?^@Z@\\@F?TB\\Bz@D|@Dv@Bz@Dz@Bx@Dz@@\\B\\Bx@B^FvA?JHhB@^Dx@Dz@Bx@B\\?P@LDz@DpAD~@FvA@`@BXBz@B\\@\\?BFrA@^Dx@@\\@\\B\\@`@@R?BDz@@\\Dx@?LDl@Bz@B\\Bx@Dz@@Z@^Dx@D|@Bx@BZ@\\@^BZ@\\@\\B\\@\\@\\BZ@\\@\\B\\@\\@\\B^@^@XDx@B|@Dz@@\\@TBd@@^Dt@B|@FxADtBFxBDrBDvBDhCBhALtGFvC@~@NvHDxADtB@b@DrCHzDJpF?LHtD@~@DpBF|B@t@JtE?FBdBDjBD|AF~CF~CDpB@`ADnBHpDFtCDvB@t@@f@H~D@z@@FJdFJnGHpDDdDHnE?TDjCL|HHpF?ZDfCHnFH`EFlCHlEDvBFdDBhAJnFPhI?BDnCBbALdGDvBBbB@j@FbCDvBFtC@\\BdBFrCFpC?B@r@Bp@@r@DnBFxDDxCFpDJ`H@pA@p@@n@?@@f@?HBjA@z@@|@@x@B|A@p@@r@DtCBhBDxB@hADtCBdA?d@BvA?B@r@B`A?`@DxBFlDDvB@^@r@Br@BzABfA@n@@j@HnEFtC?\\@P@^@p@@p@@b@@f@@n@@t@@d@DnB?b@DpBB`C@PB~BHlEJfIDfCBnB@`AFlEB|ABvADtC@~@@^FdE?ZDnB?p@Bv@BzBBhB@|ADnD?@@p@@h@HfJB~A@bB@bADvDDpEFtDBpB@`A@TBzBDtBDvCFfFBbABjA@~@@b@BbBBjCBxA@f@@T@vAB|@@vABxA@x@@p@@v@DfBBxA@xADjB@fA@z@BvA@z@DxB?@BvA@x@BxA@`A@t@BxA@hA@NBtB@N@p@?XBxABxABxABvBBvADxB@jA@j@BvABzA?J@n@BxA@x@BzABvA@zA@X@^@xADtC@L@jADvB?\\BrAB|A@|@BtABzA@bA@R?\\@Z@`@@vABzA@L@jA@z@BxABxA@b@?X@X?`@Bv@@xA@^BnBB~ABvABzABxABtB@\\BxABxA@z@BxA@xABvABxABxABxA@z@BxABvA?\\@\\BxABxA@xA@x@B|@@x@BxABxA@z@@z@?^Bx@BxA@x@BhB?NBvABxABxADtC@x@BxABxA@z@@fA@P?^@ZBxABvA?DBxBBnBDxCBtA@z@@B@tA@L@p@?X@z@B`A?VDtB?F@pABbA?VDvB@v@@`@BvBBvA?HBpABtBDtA@~@FxBDz@Bz@Dz@Bx@FvABXBn@@NDx@HxADz@Dx@@PBh@Dz@Dx@Fz@FlABf@Bf@Bd@Bb@JzB@BJpBDz@Dx@Dx@BX@b@Dx@Fz@Dz@Dz@JrBDx@?@Fz@Dx@Dz@Dz@Dx@?FDr@Dx@Fz@?@Dx@FlAHhBBV@VDp@FfAFxADf@@RDx@Dz@Dz@Dz@Bf@@RRpDDx@HzABj@JbBNtCFvALtBDz@Dt@Bb@Dx@Dz@Dx@Dz@Dz@Dx@Fz@JtBDz@@PBh@Fz@Dv@D|@Bb@Br@Dx@Dx@D|@Dz@Bx@Bv@@DBzA@v@@z@@t@?D@xA@f@@nB@fABvB@|@@rB@`@BpB@lB?J@~@@rA@~@@tA@z@BxA?h@BlB@~@?r@@X?N@X?F@jB@z@@xA@r@@d@@xA@xA@x@?T@b@@`A?L?l@@`@?B@n@?\\@\\?\\?\\@^?Z@\\?\\?\\@^?Z@\\?\\@\\?\\?\\@\\?\\@\\?\\@\\?\\?\\@\\?\\@\\?\\@\\?\\?\\@\\?`@@X?\\?\\@\\?\\@V?B?^@\\?\\@Z?^@\\@\\@X@^B|@Bz@Dl@?JDz@Fz@Dz@Fx@Fx@Hz@Hx@Hx@Hx@D\\Jx@Jx@Jx@Lv@Lv@Lx@Nx@Lt@Px@DRHb@Np@?BFXPx@FZNt@Np@@DNv@Pv@Nv@Nt@Px@Nr@?BZxA?@DNNv@FZJb@P`ADPHZFXFZFZFXH\\F\\FX@FDRHZFZFXF\\FXFZFXH^Nt@FZJb@Ll@Nv@Jb@DRNv@Pv@Nt@H^DVHXF\\Jh@BJFXF\\Lf@BLNv@FZ@BNp@F^FXTfAFXLn@FXH\\FZH^FXDRFZFZFZHZFXFZFZFZFXHZFZ@HDPFXF\\HZF\\@BDVFZH\\FZFZFZ@BDXHZDZF^FZBPBJDVF\\DZD\\Hf@BNDZD\\D\\DZ@JBPBZ?BDVB\\DZB^DZB\\BZD\\BZB\\B\\@ZB\\B\\B\\@ZB\\@\\@\\B\\@\\@\\@\\@Z@\\@\\@z@@^?N?J@\\?^?Z@\\?\\?\\?Z?^?\\?\\?Z?RAJ?\\?\\A\\A\\?\\A\\A\\?DATA\\A^AZC\\A\\A\\Ex@C\\C\\AZC\\C\\C\\C\\C\\C\\CZE\\CZC\\CXCT?FE\\CZC\\C\\EZCZATAHCZE\\CZC\\CZC\\E\\CZCZC^EZC\\C\\CZE\\ALANCXC\\C\\C\\AFATC\\CZC\\GvAC^AZA\\A\\A\\?ZA^A\\?\\?\\?\\A\\?N@j@?\\?\\@N?L?\\@Z?H@R@^@\\@\\@\\Bl@@JDz@B\\B\\BZB\\B\\DZB\\D^BXD\\DZD\\DZD\\BR@FDRDZFZD\\FVF\\F\\HZXtAb@fBPt@Pt@Nh@BNFTRt@Rt@@FXfAFTFVNl@HZFTRx@Rt@XhATz@Pt@Rt@Pt@Pp@z@bDZpANj@@FRt@Pt@Rt@Pt@Rt@Ld@BNRt@Pt@Rr@Jd@DPPn@Rv@?@Pr@Rv@?BPp@HXH\\Pv@XlA@BHZPv@J^FTPv@Pt@Rv@Pv@Rt@Pv@Rt@Pv@Pv@Rt@Pv@Rx@Pr@Rv@Pt@Rv@Pt@Rv@Rv@Rt@FXHZRt@HZHZHZRt@Pt@Rv@Rt@?@Pr@Rt@Rx@Pt@Rt@HZHXRx@Rr@ZpARv@Rt@Pt@FTJ`@H\\HXHZHXHZHZFXJ\\FXHZHXHZFXHZHZHXHZHZHZHZHXHZH\\FXHZHVH\\HXFZHZHZHZHXHXHZHZFZHZHXHXH\\J`@FRFZTv@ZpAH\\ZlARv@HXZrAPv@HZF\\Pt@F\\FZFZNx@DXF\\FZLz@Hl@NdAD\\BL@LJz@D\\Jx@Hx@Hz@TtCB\\B\\JvAB\\B^B\\B\\B\\B\\B\\B\\B\\B\\?BBXB\\B\\D\\@\\D\\B\\B\\B\\B\\B\\B^BZB\\B\\B^@LT~C\\vENtBB\\F|@JxADh@Fn@?@Ft@NxBNvBDp@@HJvABb@Fv@Fz@B\\BZ@J@PB\\F|@B\\B\\Fx@F|@Fz@Fz@Dz@Fz@F|@JvAJxAF|@Fx@Dn@Dh@JzAJ|ADv@BZB^Fx@B`@BZFz@B\\B\\B\\Fx@B^B^BZB^BZB\\D^?BDr@D^B\\B^B`@@NFp@@NBd@BXBZBZB\\B^@@BZBb@@VH~@BXB^B\\BXB`@B`@Ft@B`@Fv@Fz@H|@B^@XD`@BZB^BZFz@F~@Fv@B\\Fx@Db@@VH|@Fz@JvAJzAF|@D^Dv@D^Fx@Dx@D\\Bd@Fv@BXB\\B`@BXF`AFt@B^BZp@hJp@fJPfC^~EF~@NvBFz@JvAFz@Hz@NxBRpCFz@h@lHXpDNtBDn@BRNtBPtBRrCP|BN`BNjBJ|ABVFr@Dj@Dj@Dh@H|@BZVrDTtCB\\Fx@JzAFx@BXB^F|@`@pFFz@BX?BF|@Fx@Ft@?DD\\B^Fx@F|@Fx@F|@Fv@B`@D\\@ZB\\D^Dt@D`@B\\HjA@LB\\B\\B^B\\BZB^Fv@D^@N?HD^BZB^Dl@HhAB\\B^BZB\\D\\?HBRB^BZB\\B\\B\\B\\B\\B\\B^BZBX@DBZBZB^B\\BZB^B\\B\\B^BZB\\B\\B\\BZD`@Bf@Fn@B\\B\\B\\?@B^BX\\pEB^@N@JB^B\\B\\BZBZB^BZF|@?@BZB\\B\\B\\B\\BV?FBZB^B\\BZB\\B^BZB\\B^B^BZB\\B\\BXB`@Fz@B\\B\\B\\B\\BZB^B\\@ZD`@BZ@\\B\\B\\BR?FB^B\\B\\B^BZBZB\\B^B\\@FDv@Hz@?J^~EJzA?DFp@F|@NxBl@hIFx@d@lGh@jHB`@JxAJxAPrBF~@RrCJzABXLzANtBHnAHdAB^B^LzAVpDFx@RrCPvBB^Fz@H|@Fx@JvAB\\LzAXtDBVXtDLzADl@HfALvAF`ALzARlCJlATbDFz@F~@JvANnBZbEThDL~ARpCRrCLhB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2738135,
+                        "lng" : -76.52527239999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 457
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.2396102,
+                        "lng" : -77.115084
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e566\u003c/b\u003e for \u003cb\u003eMarysville Road\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-49\u003c/b\u003e toward \u003cb\u003eTyendinaga\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePicton\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "mg_mGbrsuMAp@?BBb@@T?P@V?P?L@J?b@?T?H?JAJAHAJ?DCJCJCLELGLGHMPQRi@n@A?[\\QPILOP]d@QXQZO^MTKZGTEPERAF?HAD?B?J?P?F?H@LBLBTHj@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2381465,
+                        "lng" : -77.11025780000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.5 km",
+                        "value" : 5466
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 299
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.1933683,
+                        "lng" : -77.09237019999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eON-49 S\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "qp_mGfptuMPKv@a@BA`@Sf@YxAs@@A`B{@l@[TK\\Sd@Un@]p@_@~A{@^U@AbAi@XQ`DkB`BaADCXQ`Ak@~@k@`EaCjAq@b@YPK|@i@bAi@RKLGfEcCvAy@HEt@a@`Ag@`@Qb@Uh@UTKFC|@Yh@Q~Ag@FArA[j@MjCg@rE{@dASb@IdASb@IlB_@hEy@FCZEFCXGdAWb@IFC`@K~A_@nM}CNEREXG`@Ij@MTEBAHCz@Y`@MBAd@Q`@Q|Am@jAg@bFqBFEXKFC~CqAlFwBj@Uv@[pAi@`Bo@NGvBy@xDyAPGNGRIbBo@NEdBo@RGLGlE_BPGNG@A^Mr@[LEtAk@NGhDuAtAi@NGfDuAr@YNGPGtB{@`Aa@BANGh@SnDyA|OoGhEeBfCcAbAa@PILGtDyA`@QfAc@~@a@lDyA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.2396102,
+                        "lng" : -77.115084
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "3.0 km",
+                        "value" : 2969
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 219
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.1673716,
+                        "lng" : -77.08638929999999
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eON-49 S\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "qovlGhbpuM~@[tFeCfD}AhEoBfEmBpMaG@Ah@WzAo@lCmAv@[hBo@JETGRGNC^M@?`@KVIbAQnAQD?xAQbBOT?tDEh@?b@Al@CjCC~CEN?b@AP?t@A|AAPAP?jBAp@AdBCb@Ab@ArDEvEGb@AV?J?fACb@?b@Ab@Ab@?b@Ab@Ab@?b@Ab@Ab@?b@AjBCjBAlAEF?fACtAAb@?b@AjBAl@?fAA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.1933683,
+                        "lng" : -77.09237019999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19.5 km",
+                        "value" : 19485
+                     },
+                     "duration" : 
+                     {
+                        "text" : "15 mins",
+                        "value" : 876
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.0088724,
+                        "lng" : -77.1390622
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCounty Rd 49\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "amqlG||nuMfCCfNQfAAb@Ab@?b@Ab@?vEGb@Ab@?fACfAAnCChBErDIb@AfACfACb@AN?~BCb@?rDEb@?fAAfAAnCC~@?`@Ab@?bIGb@AnIErGOb@AjBEb@AfAAb@AnCGTAL?nCEb@?hBCb@AbIIrBEb@?l\\c@vGKb@Ab@?b@An^k@TAvNMdFE`CEb@AnCEb@Ab@AtWa@b@AfACjKOD?\\?nJCt@A|AAp@An@Ad@AdDGzCGzEJ~@Bb@@|IPR@r@?bC?fJ@zCAb@?x@?|C?~G?N?R?fI?jD?dESn@Ej@Er@GbCW@?tAObEc@~Da@`@G~AOJCb@EVCnAGpAC^?V@f@Bt@FNBh@HPBl@LD@r@Rt@Tb@PhAf@^Tn@`@n@b@|@r@RRPNJL\\^d@h@z@lAFHdA`B~ClFhCbEnAtBBDdAvAf@h@ZXf@`@dAn@x@^zBbA^PzAn@h@VpJfElH`DzAv@nEpB`GhClAh@^PvCpAfAf@l@Z|@f@b@X^VVRXRf@b@ZZ\\Z@?v@|@j@p@|@jArAjBfBfC|B`Dz@lA^h@r@fAxA~BbAdBl@hApC~EtDvGxAhCf@~@~@`BdAvBjBlEbCtFn@~AfEtJx@lB|@xBdAbCfFtLbDrHlBnE~@xBFNLXRf@~@vBpBtEfAzBb@v@LVNTp@bA~@pAd@n@HJNP@@fAnAbAbAbCpBrDpC\\VvAfA`CfB^VlA|@pB|AbAx@^X\\XpGvEbAt@vB`BvCvBFFn@d@jFzDfFxDLJhBrAbCfB|BbBnDlCtCvBhBxAj@d@\\Z@?z@v@lAfAnDlDtD~DpDbEfF~Fr@v@Z\\PNPNXTVPb@V^P^N^LTDTFXDd@FV@R@L?`A?h@E`@CREZI^M`@MVMVMb@WvA}@bAs@hDuB`Ao@d@UjAu@n@c@dAm@LIhEeCdAk@hCqA`GwC@An@[vE_CtBcAp@]VMZK@Af@QPEZIREb@Gr@EPAh@A`A?tBB@?vC?z@?vC@~@@b@?j@@r@?l@Bb@@z@BL@T@l@BhDL`@@b@@lADv@Dx@DfAHj@Ht@Nx@RfAXhAZh@PfCp@lAXnCt@zDbA|DdAvBn@d@J|Bn@d@JnA\\bB`@hBb@r@PpA\\VF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.1673716,
+                        "lng" : -77.08638929999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1118
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 162
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.0036174,
+                        "lng" : -77.1508434
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eMain St W\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePicton Main St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-33 W\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "mnrkGbfyuMRFHDHHBBBBBFVh@zAbEz@pBL^x@rBrA`DLZxBnFRf@Vl@Rd@d@lAd@pA\\~@XfAX`Ah@xBdArEvAbGl@fCb@dBXbA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.0088724,
+                        "lng" : -77.1390622
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.3 km",
+                        "value" : 5281
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 290
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9591529,
+                        "lng" : -77.16542559999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLake St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eCounty Rd 10\u003c/b\u003e (signs for \u003cb\u003eCounty Road 10\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePrince Edward\u003c/b\u003e)\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow County Rd 10\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "smqkGvo{uM`Bf@t@P@@dAV~@VfBf@`@LhCt@fBh@n@P`@LvAZjCr@vHtBb@Lp@PHBfCp@rFxAn@PzBp@jCp@|Bl@xBl@tA`@JD\\LXLXRNLPNf@d@|@dAj@t@b@`@BB`@\\\\V^RZNTJ~@ZxB^nDn@b@Hb@HdARvQfDtFbAb@HzCj@x@NlDp@pDl@jCd@b@HdAP|HrAhBZhBZb@HdAPhBZb@HtLrBlBb@t@Rn@Rh@T^Tx@h@t@h@XVrBdBzBtBNJLLxBnBZX\\Z|AtAv@r@fBbBfA`A`@\\VR\\V`Ap@PHh@RxAf@d@JtAZ\\F|Dp@d@F`@BH?n@?z@Eh@KhA_@j@S@A^W|@u@BCl@m@l@w@~BqDFGpAwB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.0036174,
+                        "lng" : -77.1508434
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "8.2 km",
+                        "value" : 8243
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 429
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9113128,
+                        "lng" : -77.24174429999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCounty Rd 11\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "uwhkG|j~uMrAnBRXx@lArCdEFHxFnI`@l@X`@h@v@bD|EXb@xCpEhCnDrCjErAnBtFfIlHxKrApBh@x@hCxDr@dABBfCjD|AhBrC~C|B`C@B~A~Af@h@vGvGfDdDn@p@`B`B@@l@n@p@r@tBnCtF|HT\\`AvAt@jAv@jAj@z@h@x@NV@?Xb@xAvC@?Vj@vArCtDvHDD`AfBx@dBrDxHTd@zCpG|DjJfBdEh@tA|BtFn@|ArCzGnCrGjB|E@DRh@tA`EDPx@pCr@`CBHrBzHNl@p@dCNj@dBrGl@xBRv@l@vBBJbCtIBHJ`@BH^tA`ApCFNBHl@xAHVBJHZ@BVfAF^F^j@`EFb@@JJl@^vCb@vDF`@@NFn@Fn@Fp@Fn@Fn@Hn@Dh@@FJl@X|ALl@Hh@j@vBV|@Pj@HXZl@j@jADFXb@Vb@Xb@LRHNn@hAfAnBPZDHn@hAT^@Bz@dAjArAfBtALDZN|AtANJ~B`BzAfAd@b@f@d@`@d@`@j@pEhGX`@bGjI|DpFX`@X`@X`@nAdBtBtCLR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9591529,
+                        "lng" : -77.16542559999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 384
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 51
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9082071,
+                        "lng" : -77.24097859999999
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eCounty Rd 12\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "ul_kGzgmvMNR\\\\NLNJPJZLRDH?H?V@XCd@Kh@SvAw@hAmADEl@k@f@[DAd@AZI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9113128,
+                        "lng" : -77.24174429999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 197
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 57
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.90697,
+                        "lng" : -77.2392792
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eCounty Rd 12\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "iy~jGbcmvMHAt@i@b@g@@AX]DE|@sB@CPe@Tg@HS"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9082071,
+                        "lng" : -77.24097859999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "195 km",
+                  "value" : 194777
+               },
+               "duration" : 
+               {
+                  "text" : "2 hours 14 mins",
+                  "value" : 8048
+               },
+               "end_address" : "200 Albert St S, Lindsay, ON K9V 5E6, Canada",
+               "end_location" : 
+               {
+                  "lat" : 44.3410364,
+                  "lng" : -78.7416585
+               },
+               "start_address" : "Sandbanks Provincial Park, 3004 County Rd 12, Picton, ON K0K 2T0, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.90697,
+                  "lng" : -77.2392792
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "73 m",
+                        "value" : 73
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 51
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9065967,
+                        "lng" : -77.23853749999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e on \u003cb\u003eCounty Rd 12\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "qq~jGnxlvMDIDKRi@Ti@BEFOFS"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.90697,
+                        "lng" : -77.2392792
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "24 m",
+                        "value" : 24
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 4
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9067659,
+                        "lng" : -77.23835489999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eCounty Rd 12\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "go~jGzslvMMUEEMI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9065967,
+                        "lng" : -77.23853749999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 641
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 78
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9113128,
+                        "lng" : -77.24174429999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCounty Rd 12\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ip~jGtrlvMWTYZUZEJOZM^Q`@Wh@A@c@`AEF[t@O^?@Wd@OVKNKJCBKJi@j@g@Zm@j@EDiAlAwAv@i@Re@JYBWAI?I?SE[MQKOKOM]]OS"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9067659,
+                        "lng" : -77.23835489999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.1 km",
+                        "value" : 2122
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 137
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9185623,
+                        "lng" : -77.26576609999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCounty Road 18\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ul_kGzgmvMKN}@bAkC~Ce@f@[\\c@f@_@d@_@r@Up@WdAQbA[zBObAIn@{@`G{ArJQnAKn@eAxGKn@ObAaBrKiBhLm@|DKl@eAzGALaAlGm@|DU|Aa@lCAF_@dCU~Aa@lCKn@cA`H"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9113128,
+                        "lng" : -77.24174429999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "9.4 km",
+                        "value" : 9434
+                     },
+                     "duration" : 
+                     {
+                        "text" : "9 mins",
+                        "value" : 559
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9854678,
+                        "lng" : -77.2334001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCounty Rd 12\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "_z`kG`~qvMwAwAgDaDiIyHqBgBqCoCQQcA{@eFkE[UwAiA{AcAgEgCy@c@_@S_@USKoBeAOKmDkBc@W_BgAa@W]YwA}@{CwBqD_CIESMwCeBu@c@q@_@OI}A}@cAm@e@YcBmAw@m@oA_AsDcDk@k@i@i@qAuAo@u@oB}B}@eA{F}GiBoBaBeBeHoI[_@oB_CqA_BmA{AwB_CY]_EcF[_@o@y@wB}BkAoAk@_@CC{@e@A?]KCAuA[QCgAOIAoAWOEc@M_@OeA_@iDsAa@QOGQGeBs@uAi@eBs@cHwCw@MYAW?{@Dg@HQFUHwBtAo@j@cAz@kFnE]XUR{@h@cAXiANuFJ_BEy@KoA]o@g@QOg@g@uBcD}AcCMQiBeCyCaEyD{Fa@m@QYuAuBe@eAa@kAqAaFeEuOw@sBmCuGq@qAu@}@}@m@{@[g@Ma@Mc@KmD_Aa@Ka@MqEkAa@KsFyAgBe@eAWm@OWIsBg@iAYc@KQEOEa@Ku@SOEgAWuG_B}Cu@OE{Bi@OE_@IaBc@[IEAc@McBg@iAWWE{@QQ?QAK?I@c@DMDQFSLOLMJON[d@M`@Mb@I`@Gf@[vDi@hEW~Bg@rEYrCk@pF_@`DQ`B_@pDARYzBe@~DYdCIn@EHCFSZ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9185623,
+                        "lng" : -77.26576609999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 954
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9873327,
+                        "lng" : -77.24502889999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eBloomfield Main St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-33 W\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Bloomfield Main St\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "e|mkGvskvM@V?LAN?L?JANAJCb@Ix@StBa@bE[fDYtCQ|AEh@EXKhAGl@Iz@UdCMvAo@hHABm@~GEj@o@dH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9854678,
+                        "lng" : -77.2334001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.7 km",
+                        "value" : 4706
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 203
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.0122185,
+                        "lng" : -77.2848801
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eON-62 N\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ygnkGl|mvMEb@WtCKjAGn@KhAc@tEe@pFIv@I|@?FGx@I`A{@fL_@jFGp@y@xK?HGn@WtD[zDYbECVcA~M[lEy@~KY~DEb@OzBK|AGr@CTE^Ef@If@Gb@Gb@Oz@Mp@Ot@Qt@Mj@IZGTITGTIZKXK\\[z@e@hAYn@Q^INKPSb@cAdBOTY`@]d@c@j@a@f@e@d@o@p@a@^YT{@p@y@j@}@j@gAr@aAl@wBtAoBnAgC`BkBhAaAn@cAn@a@Rg@XuAt@o@^cAn@iAr@iBfA]T_@T]RC@w@f@_B~@aAf@k@ZaAb@_@Po@Vy@Z{@XiBn@{Ah@KDa@Ne@PuAd@gC|@wBt@}Aj@sBr@mBp@}Af@}Aj@]JaBn@gAh@YPSJSLuBpA_@VqAp@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9873327,
+                        "lng" : -77.24502889999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19.4 km",
+                        "value" : 19367
+                     },
+                     "duration" : 
+                     {
+                        "text" : "14 mins",
+                        "value" : 866
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.98933419999999,
+                        "lng" : -77.51697129999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePrince Edward County Rd 1\u003c/b\u003e (signs for \u003cb\u003eCounty Road 1\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eScoharie Rd\u003c/b\u003e)",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "kcskGnuuvMa@xIg@~Jg@lKAZARSzGANi@|Lk@|LEp@a@xIIdBiClg@MlBc@bJQ|Cs@|Le@xIEn@Ep@[tFy@jOKvBEp@OrDSpCK~C?tBJlCj@nFFp@@BTlC`AvLD\\d@xH|@lNvClc@f@hIz@lLdAtNh@jIDp@v@jLF~@Fp@~AlTLbB|@dKz@dKzAjQFn@bAvLFp@j@bHTjDJnDF|DA`AA|@ARE~ASxFs@pNEp@WtFEp@OrCWvFk@~Kg@dIEn@Ep@SrCIdACZE\\CPG^Kd@Y~@_@pACDQj@c@pAiAlDELK\\aA|Ce@hBO`AOjACfAArA@|@D~@Jx@ZvCHp@ZnCP~AHn@Hp@v@~GP`BHn@P~AP`BFd@@HP~AHn@Fp@~@pIHn@Fn@Ht@LzATrCZtDt@vHHn@nCzX^`Ev@rIFj@jAvN`@xDJ`BHnAJ`AVjCj@jHz@fK@LPnCJzA?xAAv@AVIhAGn@s@nFcApHk@|EIn@]nCIp@AFw@jIOxA]tFAFCvB?zBLfCThCh@~CdB|JvBdMN|@f@jDp@tDd@hCjAbFhAzEBFNj@~AjGNj@Ld@`@fB\\rAp@bC`@xAtAfFbDbLfAdErAfF^lAvAxEPj@Pj@FTbBhG`DbLr@nDj@dD~@|FDZfAzGBNF^@LbBfLTrABHFb@ZdB@Xv@nEFXDRj@jCFRbCbMtAtFjAlE|@rD|BfJjAvERr@hAvD~AbGbAjDjA~DrB|HfErO~FdT|@bDrArGTdADT~@hFLt@RdAT|AT~AZtBh@jGFp@BVXjDRhCFx@Dn@Fp@Dn@NpBb@dFDh@NfBDp@Hz@Db@\\`EZrCHn@PzANdB^xD`@rENvAFz@NjBBzAAvAEdAQ|B?FGh@_@`EGn@g@rFgAbKiAnKo@rGQlBo@vGEj@ABg@rF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.0122185,
+                        "lng" : -77.2848801
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "11.9 km",
+                        "value" : 11898
+                     },
+                     "duration" : 
+                     {
+                        "text" : "10 mins",
+                        "value" : 611
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.0692979,
+                        "lng" : -77.6009492
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLoyalist Pkwy\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eCounty Rd 33\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRegional Rd 33\u003c/b\u003e (signs for \u003cb\u003eCounty Road 33\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eLoyalist Parkway\u003c/b\u003e)",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "itnkG``cxMgBTQBcAJc@DiBPQB{CZi@FeBRmCZ}BVqALsCZqEf@O@y@JI@{I~@iBRaBRiBTmHz@yATA@cAP_@Jm@Vm@\\_@Vo@d@Y\\i@p@OTa@p@aBpEqA`EoA`Eq@vBa@pAw@dCQh@K\\m@pBu@~BgA|CA@Sd@Uf@Sb@a@|@}@bBcAdBmAjBa@j@g@j@c@h@[^Y\\]`@sA|ASTGHgCtCmD`EaBlBuBvBi@d@e@`@eBxAsAfAiCtBCBeGfFwCdC]X]Z_@ZyJpI}DlD]ZoFzEWT_BvAwBnBeIlH_@\\wBnBsCjCgItHwBnByArA]ZkAfAi@f@wBnB_Az@eTbSwApAyApA]Z_CxBgRbQ]ZwArA}CrCu@|@k@~@aA~Aa@~@Sj@y@`CoAbE}AdF{A`FmCzI{@rCeAnDuClJw@dCo@xBaA~CmA~Da@pAUt@{CzJoFrQ]fAg@dBY~@{@|Ci@xA]hAuBjGg@zAkAdDy@fCMb@CDa@nAADw@vCGRe@zAOd@m@lBk@hBQh@AB_ChHiBbGOf@o@|BQh@CJ[fAq@zBQj@ENu@|BSp@e@pAQh@IRCD]v@a@r@i@p@e@b@e@`@o@^OHa@R_@T_Af@a@PQHWJk@XUJ_EvBuBhAMFOHuFvCoBpAeFzCQJA@_@R_CtAcAh@kAh@g@Tq@TwC`AiBf@C@eBd@SFYFUDE@U@]BU?_@A]A[GUC[GSEGCc@Oa@USOOIqAgAaA_AiBqBk@i@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.98933419999999,
+                        "lng" : -77.51697129999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "6.0 km",
+                        "value" : 5976
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 350
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.11863109999999,
+                        "lng" : -77.62930089999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCounty Rd 40\u003c/b\u003e (signs for \u003cb\u003eCounty Road 40\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-401\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eWooler Rd\u003c/b\u003e)",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ch~kG|lsxMiArCW\\c@d@EB[Va@RA@a@PE@[LgC`AgC`AiEbBwAh@oAf@cA`@kBt@mE`B}SjI{NzFgC`AiDrAa@PsJvDiDrAoBt@}HnC{E|AuExA_Cv@{B|@eCbAwP`HE@eAb@a@NaC`AeFnBoCdAYJmAd@SHcC|@KBiBp@qHlCeBn@eBn@oG~Be@NqEhBwFnBA?a@Na@NsFpBqAp@oBdAaAp@_@VQLe@`@qAfAkAfAGFA?_DxCCB]ZuArAA@MLgB~AA@iAhAkA~@uBpBcA|@uClCs@x@iA|@o@n@e@b@QLA@c@Z{@h@e@Ti@`@[Po@^aAf@GDC@SJa@Rk@ZMFIFWL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.0692979,
+                        "lng" : -77.6009492
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "85.3 km",
+                        "value" : 85312
+                     },
+                     "duration" : 
+                     {
+                        "text" : "46 mins",
+                        "value" : 2748
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9034564,
+                        "lng" : -78.62175789999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to merge onto \u003cb\u003eON-401 W\u003c/b\u003e toward \u003cb\u003eToronto\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "m|glGb~xxMOg@ESQo@G]YkAESEMCSCMAQ@KBI@E@I@MDOFMDGFIFE@ABCFA@AB?BAF?F?@?B?JBDBDBDBDDDDBD@BBFBB@FBF?D@B?@@D?B?BBTDhA@^?@?@HR@x@?B?t@@t@@lB@X@nB?XB~ABpD@r@?d@?J@lA@@?X@vA@t@?`A@f@@x@@bB@jA@z@?Z@z@?Z?^@Z?\\?Z@??\\?\\@Z?Z?^@F?T?Z@vA@jA?J@\\?z@@Z?\\@Z@\\@\\@N?D@b@B\\@TB`@Ft@@XDb@D\\Hv@D\\Hr@@BDZDZDP@HDZFZFXFZFZHXDR@FHXPp@?@HXHXBHNh@JVVx@\\bAJVJXTp@Tp@HXTp@JXTn@JX^jA@BHRHXJVHXJVTp@DLNb@JXTp@HXJVHV^dAb@pAPf@Vv@BDRn@FNb@rAJVTp@HXJVHXJVZ`AN`@Tp@FNBHJXHVFRL\\Pf@BHXz@Pf@HXTl@L\\r@zBBHPh@Tr@Rl@J\\HTJZRl@Nb@Rl@Pj@@DJZBFNd@L^HVTp@bA|CFTJVRr@Pd@DLh@dB\\dANb@FTTp@`@lA\\hARp@HVJ^JZFXDLLd@Pp@DPBHFZHZPt@Nv@FXPt@FXH^Nt@VlAF\\Nt@p@dDLp@H\\F\\H`@Nr@Nr@FZXrANr@H`@f@hCR|@@JDPDN@JDRFZ\\bBXpArAvGBPDLBPXrANv@Np@pArGJf@Jh@h@fCNv@Pz@H\\P|@@FJb@TjA@BDVH`@Nt@FXPv@Hf@BLPx@Nr@Nx@H\\Lr@TnANx@Lv@d@tCDRLt@Lz@^hCVdBN`ADZLz@PnARrAT~ABRf@fDL|@f@lDJp@F`@Hh@BHN`ALr@Lt@FVF\\Pv@Nr@FXLh@XjA@DRr@Lh@Rr@\\jA@?Tv@Pj@J\\DJL\\BHZz@Pf@Pb@Rf@Vn@P^Th@Vl@Zp@f@`AZn@BFT`@T`@T`@\\j@\\j@\\h@NVxA~Bh@~@V`@DFj@|@n@bAXd@T\\vA|BZh@Xb@RZNVj@~@x@rAX`@nApB\\j@jAjBz@tAn@dAXd@T\\b@r@JN^n@`@l@HPR\\Zh@Zl@l@jARb@LVXl@JTVj@P`@L\\Th@b@hAFNNd@Tl@JZTr@^jARr@V|@Pj@h@fB\\lA\\hAJ^Rr@^lARr@HVJ^BFb@|ATt@f@fBNh@Nb@Lb@lAfE^nA\\lADLHZNd@Rt@Pl@d@~AX`A^nAf@fB^nAf@fBh@fB?@\\jA^nAPl@j@nB^nAdBbGfAxDX~@X`Ah@fB^nA\\nAf@dBHVFTb@xAV~@DJ^rA\\jATv@BNH\\\\tANn@Jd@H\\Lh@\\hB@DLv@RpADTLx@TzARtABJFb@Hf@Jv@Lv@Lv@Lx@Jr@DZF\\RvAPdAHh@Lx@Jv@H`@Jp@XrBF^Hf@BJRrAHl@@FZtBLv@BNNfARpA`@lCTvAF`@PlALx@@Fb@tCNbAFb@RjAD^ZrB^`CL`ATtARpALz@DZ@FDTXnBTtAJz@RnAJx@Jz@BZD\\DZHz@Hx@Fv@B^Fv@B^BZB^@XFz@@^HrBB\\@ZFzAPrEr@lR@JPzE@NFhBHdBDdA@j@LzCBp@LrCFbBH`CNfDBj@Dn@?LD\\Ft@B`@Jx@Jz@D^F^Jp@F\\TjAJf@XlANl@XdA@@HV^jAFPDLTj@LZVl@JXLV?@Zl@Zn@b@x@FJZh@^l@NTLPj@x@~@lAf@l@TXX`@PRNRNRDDJL?@DDHJPTZ^Zb@X\\`AlAj@r@DFTXJLLPPT~@hATZ^d@NRr@z@HJd@l@BBLNNRZ^DFr@~@p@x@LPLLV\\Z`@HJr@|@TXJLTXHLTXNPJLLPLPJJx@bAPTX^BB@BFHNPp@z@NRFFX^NPPTZ^r@~@HHX^x@bAFHb@j@NPr@~@VZh@p@LNNTX^TZPV|@xAp@nABHJRBDTf@FL?BlAbDdAtDTdAVrAH^XvBHp@Jt@BZ?@NhBDz@FnAJrE?J@h@@|@@t@@f@BvBBvB@p@@p@BpBJtG?PB|@DrBDlAFzABt@FbAF`A@JBd@Ft@Dn@Hz@Fn@Jz@NxABVD\\Jv@F`@DZFXBVTrAP`ANz@?@FXx@jEDXlCpNBNhAbGnA|GH`@^pBLn@d@hCzAdIt@zDP~@Jl@TlA`@rB@FTlA`@vBTnA?@Px@FZNx@VrAF\\F\\FZLr@H`@f@jC@Hn@dDNx@ZbB@BP`ANz@Nx@Jd@DRNr@H^FVDPLh@HVHZL`@FRJ\\HTJZJVJXJXHRHRDHLXXn@PZXh@LVZh@PVHLDH\\f@NTNRPTNRPPb@h@`@b@`@b@VVb@b@p@p@NNRP~B`CtAtAb@d@PNPPPRPNPRPPPPt@t@PP^`@x@x@TT^`@PPPRNPPRPRNR^h@NR\\h@NVNTLVNVJRNZLXLVHT@?JZLXJXJVTt@JXBHDNHZJ\\Pt@HZH\\FXDZH\\FZLx@F\\F\\DZF\\Lv@F\\BNb@hCBRV~AH`@Jn@DZLx@Jh@V`B\\vBNx@Nz@DZLx@V|AFZz@lFFb@ZhBh@`DV~ARjAb@lCHd@Hd@Ll@H`@ThAVjADL\\tALf@Rv@r@dCL`@b@tA?@b@zADJt@fCX~@Rn@@BrB|G|BxHhAvDr@|BJ^Rl@Vz@FNJ\\Tt@\\lAFNd@`BRl@\\jA\\hALb@~ChKnDrL@F`A|C`@vABFz@tCVv@Pj@`@pAx@lCBHrAnEp@~BTr@fB~FzBrHDJx@lC@DbBtFPj@jCzIRn@h@fBTt@p@xBdBxFrArEPh@DPj@hBr@bC^tARr@Pt@BJVjA`@jBXpATpARrARrAJv@PtAn@tFXjCd@hElFff@V~BH|@Ff@RbBD^JbAHn@D`@D`@Hn@D\\BVP|ALvAHp@Fj@`@pDFf@P`BDVZlCJ`A@LHt@Hr@?BXjC`@lDJfAFf@VzBHt@LbANtAVzBt@~G?@Fl@@Bj@lF@@bDdZ?@fAzJ`@xDFd@J`ABLrAxLlDv[t@`H~@pIFd@B\\DXD\\BZDZDZB\\BP@HDZD^BXD\\DZBZJx@?@BXDZDZB\\DZBZBZB\\DZBZ@J@PBZB\\B\\?H@R@RDb@B^@VBZ@ZB^B\\BZB\\@\\B\\@J@PB^@ZBZB\\B\\@ZBZB\\Bb@BX@\\B\\B\\Dp@B^B\\@XB\\B\\@ZB^@LFz@D|@Fz@Dx@B\\B^B\\B\\Dx@B\\Fz@@ZB\\B\\@ZB\\B\\B\\@ZB^BZB\\BZ@ZBZB^@XB\\BXB^@ZB\\BZBf@@PHjADx@Dh@Bh@@PBZBZ@^BZBZ@\\BZBV@\\Fz@BZB`@@ZB\\BZ@\\TnDB\\?B@HBh@NbCR`D@ZBTDx@^hGVjEJ|ADn@^rG@NB\\@ZFx@Dx@B\\B\\@ZBZBZB\\@\\Fx@BZ@\\Fx@Dx@BZB\\@ZB\\BZ@ZB\\BZB\\@\\BZBZB\\Dv@HxABZBZ@ZB^@D@RB\\@\\BZB\\BZ@\\BZ@T@FBZDx@?@BZ@ZBZB\\Bd@@RB\\BZB\\@Z@F@TBZ@\\BT?DBZB\\@\\BZB\\BZ@\\B\\?BHpAB\\BZ?BDv@Fx@FdAFfAF|@Dv@Dj@@L@\\BZB\\B\\HtABZr@zLTpDDp@@XB`@B^B\\B\\B\\@\\BZB^Dv@Fz@Dz@PrCB^BZB\\@\\B\\B\\B^Dx@Fx@B^@ZB\\B\\B\\@ZF|@BZBZ@^B\\B\\B\\Bd@Dp@PrCB\\@\\B\\B\\Dx@B\\BZBZHvAB\\@ZB\\@F@TBZ@\\BZDv@R|C?FPrCF~@B\\B\\@ZB\\BZB\\@ZB\\Dv@B\\BZDz@Fv@B\\@ZHhAFt@BRPpBBXBZDZD^Ht@D\\DZDXDZD\\@JBNBXD\\FZBZDZD\\DXDZHp@d@pDD`@d@lDVxBHn@d@vDjAhJf@|D^zCPtADZ@HHl@DZD\\DXPrAHn@fCdS\\tCh@bEJx@D\\Jx@DZDZD\\Hp@Jx@Jt@Jz@Jt@Jz@x@xGHn@f@`EZ`Cx@nGt@hGHn@^pCVxBj@rE@FDZBP@LDZ@FDVDd@Hn@F^BP@JBRJr@?DF^BZF\\?@NlABP@LJx@@@D^DX@FBRBXF^?DBRD\\F\\BXF^BXDZBTBFBZJx@T~A@LDXBVFb@?@DTBZF\\@F@PL~@Fd@BLD\\Hn@D`@D\\@BFj@F`@@DDZBTFh@F`@DXBZF\\D`@D\\DXDZBVFd@BND\\D\\F^@L@JDXFb@BV@@BXF`@BV@FBTDZDV@FBXDT@LDVDZ?BD`@BNBL@NFb@?@BPDZHn@@HDV@HBTDZBVBPDTBTD^BP@HBVF\\D\\BXD^D\\D\\@F@PDZB\\DV?@BZD`@B^?DBRBZB\\@P@JBZD^@P@LBTB`@BXBP@J@VDb@BZ?@BXD^BZBZB`@Db@@J@JBXB^D`@@PBZD\\BXB`@@N@LBTDb@B^BR@L@RB\\D^Dd@@NB^BN?HD^BXB\\@J@NBZD\\TnCB\\BV@JBVBZ@P@JB\\BZDZB^BZBZBP@LBZBX?FBVD^@XBN@NBZB\\BZDd@BTBZBZDb@PxBJlA@D@PBZB\\BZBR@FB^B^BV@BB\\BZBZ@F@TBZBZBZ@BBXB\\BZB\\D^@N@HBZB\\B\\BZDZ?@BZBVBb@BV@D@TBRB`@D`@?HBPDb@B^@LHdABZBP@JBZB`@BP@JB\\BXBZDb@?FBRB\\BX?@BZD^Dn@@JTjC@TPzBH~@JjARjCLrARlCXjDZlDNlBLrBFrADnA@\\@b@?T@^@b@?R?b@?^?J?R?X?\\?^A\\?J?NA`@A\\A\\A\\A\\AZ?@CXA\\C\\C^AX?@CZCZC^E\\CZCZE`@It@E\\A@EZCXG\\E\\G\\EXGZEZI\\EXGXGVGXK`@GZIZGXIZIXIZIXIXIXKXKXIXKVIVMZIV?@Ul@KXM\\IRKXKVIXKVKZc@jAKVIVKVKXITO^GRMZIVMZIVQd@GLENKVKXKXELCHKXKVKZEHELKXKX?@IVKXKXADGPKZIVIXCLELIXIZGVA@I^GVI\\IZGXGXGZEXABGXG\\G^?@ETEZG^?BETE^EXE\\E\\EZCR?FE^E\\CZC^C\\AHCRAZC^CZAP?JC\\AZC\\?HATA\\C\\AZA\\C^A\\C\\A\\A\\C\\A\\?DARC^AZA^C`@UpFEjA?FARK`C?B?NAREx@EdACj@?DEnAGbAAj@IbB?DYfHUdGAP?BALCp@KdCANElA?DIbBG|AMfDCb@UbFOdEQbEAN?DMnCGfBKvBS`FI~BGbCErBCzA?jAAD?~@?bA?jD@nA@jA@`@@|@@^D`BDtAFtABdAFdAFlAPbC?J@LPxBD`@@TDb@Ht@TrBRfBNhAJ|@T~AJn@XdBRpARfADRFZVrALp@VfAZzAZvAn@pCTfAr@bDpA~FDRFXVfAPz@\\zAb@pBFZH^hAhFv@pDRx@Lj@Nt@ZtAXhAH\\HXDRZdAH\\DLRp@@BLd@L\\Ph@FRFPL^Vr@FPTl@FTLZRf@DLFLBFFL@BHRNZXr@HPt@bB@BdA~BRf@t@`Bt@dBFJZt@d@fAZp@n@zA`@~@x@fBp@`Bn@rAPb@rA|CFNf@jATn@Vl@`@lADLTx@FRVdA?@VhAH^DVN|@Hf@P`ARvAHh@BVZ|BPzA@JHdADl@@HBn@Bd@Bh@@f@?N@R@~A@Z@pH@~CB|E?|@@Z?xC@b@?R?t@?d@@pA?pA?bA@Z?p@@~A?B?x@@t@?B@z@BrA@^Dz@Dt@D`@Dl@Fr@Fp@Hl@BTD\\Jv@FXHf@Nx@@FLj@?@Nl@Rv@b@|A@HRh@Tt@?@\\z@Vp@Zp@HPj@jAh@~@Zl@x@xAj@dAn@jA~@dB^p@Zl@Tb@\\l@\\n@Xl@Xl@h@hAXn@p@`BBFJV@BN^Tp@d@nARp@X|@Ph@Tr@Rt@J^Nn@XhAV~@j@fCb@lBh@|Bf@xBBFf@xBj@bCn@lCdAxE|ArGf@zBt@|C`@dBBNLj@\\vALh@TbAFT\\|Af@zBBHf@bCNt@XxARfA@@Hd@RnADTFZF^Hd@DVN`ABNPfAD\\D^XpBF`@\\xCFl@RfBLhAPfBFn@RzBTbCVpCFv@@HJ~@Df@D`@?D?@\\pDD^LrAHz@XxCTfCPnBRpB@PT`CVpCBLPnBPfBJrAJhABZD\\BZB\\?J@NB\\B\\B\\@P@H@ZB\\@\\Bn@BT?P@ZDxA@\\@\\@X?@?\\@Z?\\@z@?Z?@?\\@\\?\\?Z?ZA^?X?@?\\A\\?\\Cx@?F?VAP?JAZA\\AZA\\A\\GvAAZAB?BGpAC\\AJAPC\\Gx@CZCZE\\CX?@C\\EZCVE^E\\OrAADCTKx@GZKv@G\\AHCNG\\EXGZGZ?@GXGZGZEXCFCPI\\GXGZIXGZGXIZGZIXG\\GVIZGXGXA@GXGZIXGXCJCNIXGZIZCNCHGZIXGZIXI^ETIZGZIZGXCJETWjAIXGXENAJIZGXENAHI\\Qr@GXGZABGTQv@GXGXABGXIZGXER[tAGZIXGZG\\GXOv@G\\EX?@GVE^E\\Gf@EXGl@Eh@?@I~@Cb@?BCd@C\\Ad@Cv@Cl@AX?j@Aj@?j@?R@X?T?R@V?d@@Z@\\@^@ZBd@Dh@Bj@Db@L|APrAPtALt@PlABPb@rCZnBTxARpA\\|BPjADXRlAJn@@JJr@BLHh@XhBDV@@TxAFf@PdAF`@N`A\\xBHj@Lv@NbA@JF`@Jn@v@dFPhAt@vE?@Hl@jAxH\\nBV|AdAzGH`@@JV|ATzAH^F`@F^j@nDDT^~Bd@tCx@`F?BV~AJl@N~@\\nB@Jl@rDJl@`@hCd@rCVdBFZBRX~Ax@hFBNF^b@jCBN@FTvAF\\Jp@XbBTxAFZBNXhBx@`FZjBDXJj@NbAF`@Jl@XbBL~@Jh@RlAJl@BNF^N~@Jj@Jn@RtABHBPF^Lt@F^Hb@BRRjAJj@BN?@TtA\\nBJj@DXFX@NHb@FZRfAZlBVvATtAFf@TrADZRhAF\\V`Bp@fEDRV`BH^b@zCRbBHn@DZLxAJ~@Dl@BRDn@F~@?JHjAL~CJtBD`ABh@Bd@?DDt@N|C@VFlAJtBDz@@ZBb@DbABb@DnAJ~AD|@FhABb@J|BBz@BXPbELnCDt@PdEB\\NhDFhAFvATfFD|@Dt@RbF@`@FhABz@Bf@^dK?LPhEP`ELbD@BZhH?LNdDPpDBr@RxEH~ANfDJhCHvAFzA?LDn@NbD@VXxFF|@PfDLfCBf@LtCFpA@ZFfAFpAFdBVfFBj@T~FJrBNtDDr@?DNfDJzBNjDd@zJTtFj@|L@b@NjCDh@HtALnBHbAJpAH|@JrABXJ`APfBBPNvATnBPvAHj@VlBD^`@vCn@xEF\\VrBd@jD~AnLL|@RvAp@|EJt@@Lb@bDb@zC^jCx@fGd@fDdA|Hb@`D?D\\fCfBjMDb@d@dDXvBhAlIHh@VfBPtA`AhHl@lEb@~CPlAT`B`@vC?B\\bC?@Ff@l@hE^rCVjBT`BNjATzAx@hGXvBPjAh@xDv@`Gb@xC?Fd@dDNfAXvBBRDZRvAt@tFJn@?BHh@LbAf@pDd@lDj@bENhAh@zDF\\Fb@NdANfARxAR|AXtBLx@Fb@NhA|@xGb@`DN~@PtAfBnMR|AT~ATfBZvBb@hDFZb@dDPpAF`@Jx@nA`JDXPpA^pCPnANhAXtBBPHd@\\dCZ~B`@~CfA~HzA~KTdBN`AVpBPjAT~AL|@VnBR|AHh@NfA`@xCv@vFF`@Hn@r@lFfBpMxApKNjA\\bC~@~Gd@hD^nCPlA`BvL\\lCZ|BVdB\\jC`@pCBPv@|Ft@lFJv@j@bED`@fA|Hr@fFJt@L~@~AlLr@jF?BPnAvChThDzVz@jG^nCJn@t@xFDVfBnMpCjSj@bE@J^lCR~AJn@^lCHn@~B|Ph@|DhDzVJn@fDrVzDhYRzAJv@DVFb@F\\@HJv@NhARvARtAJt@BNBVL|@NdALx@Jx@@LHj@Lx@Jt@Jr@Ff@DZDXLz@L|@\\fCDZPpAPrADVT~AJt@D\\@DHn@T|AL~@d@hDb@~CF`@NfALdALx@Jx@F`@@PHb@DXJv@Lx@Db@DTBRDXLv@DXNbAHn@DZDTHl@F`@F^Hn@FZHn@L`ALv@TdBNhAPpAJx@Hf@Fd@Fb@D`@Lt@D\\NhA@DNlA@FHh@L|@@NBP^lC@Jn@tED^DTj@bEVnBXnBHj@TdBXnBVnBHl@\\`CPtARtAD^DTd@hDb@`Dp@zEDZBRDXh@~D|@nG@LjBbNt@pFRzARxAF\\VlBRtAFb@Fd@n@pETdBVfBPpAHp@Jp@F`@DZFb@@J?BJt@NlAHr@L`AJx@Jv@Jx@Ht@@BJ|@Jt@Jx@Hv@Jx@Jv@Hn@BTHj@J|@Jx@Jv@Jz@Jx@Jx@Ht@Jx@BJJx@LdAD^Fb@BPJ|@Jt@J|@Jx@Jx@Jx@Hr@L~@BNP|AXvBJz@Jv@Jx@DZD\\PxAJ~@BPFd@LbAD^Hp@DVJx@VtBHl@Jx@Fj@BLBZPvARxAHn@BVHn@Hp@Jv@Jx@Jv@LfANfAHt@L~@Jx@Hv@Jr@J~@Jt@ZlCDTD`@Ff@J~@Lz@d@|DPvAJv@Jx@Jx@@FHp@Jv@Jz@DXD^BVFb@`@~CJz@NnA@DX`C\\xCVpBVrBDZX|BFd@?Fd@vDNjANhATpBVjBBRPvA?BHj@?BNdAJz@VxBVnBLbAD\\d@zD`@`D@J?@F`@LdAXxBHn@D\\@PJt@BNBPDZHn@Hp@BRDZHn@d@~DHh@Ht@R~A@JZbCL~@Fh@Fd@J~@BRJz@NfALfAPxAJt@Hn@L`Aj@|ER~AlArJ?@VtBn@hFXxBNlAZdCFf@NfA^tCHj@Hr@BRFb@^zCHt@Hp@NhA^xCJz@\\nCJx@d@vDBPb@vDh@fETlBPzATfBJ|@Hr@`@hD?@b@nDVnBPvALbAHp@VpBXzBBXJt@PtA`@hDDXJv@Db@VrBNfAHt@BNJx@Hr@Lz@Hn@Fn@Jn@Db@Jt@D\\Jz@\\nCPrAD\\DZZnCZdC@JVjBD\\L~@Jn@@J\\tC@BFl@R`BNfAHt@XzBHt@b@pDBTPvAHl@Ff@TlBL|@PvANtAb@dDHt@Fd@NnAXxB@\\\\lCVvBPpAPvAPvADXJz@TnBVpB\\rCDXNnAPzATrBJv@NxALrAb@nEPrB@PH~@HbA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.11863109999999,
+                        "lng" : -77.62930089999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 354
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.90516299999999,
+                        "lng" : -78.6229996
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eON-35\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-115\u003c/b\u003e exit toward \u003cb\u003eOrono\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eLindsay\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "s{}jG~xz~MC`@AB?@FbAB^@`@Bf@?R@\\A@?LAHAFAHERENEJGFGJGFEDKFKFG@E@I@G@KAE?QCKCOIAAGCMIYUYYg@c@g@g@AASC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9034564,
+                        "lng" : -78.62175789999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.9 km",
+                        "value" : 5927
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 214
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.9520292,
+                        "lng" : -78.6062415
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eON-115 N\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-35 N\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "gf~jGv`{~Mm@o@MMc@g@SUGEGIq@u@c@e@OQQQQSQQa@c@a@g@GEIKa@c@s@w@a@c@KKEEQQQSOOc@e@QSOOOQEGm@o@QSQQSUMOOOQSe@g@_@a@a@e@SS_@a@u@y@QS[]EEc@e@EEoAwAa@c@u@w@EG[]QQWYIIQSQQMOm@o@GIQSEEm@o@OQc@e@QSOOaAkAc@c@MOAAQS[]g@i@QQq@w@OQSSEEY[QS]_@EEq@s@a@e@OQKKg@i@QSQQ]a@SUQQ_@c@a@c@QSs@u@a@c@_@c@MMCEQQQQMOSS_@c@QQQSa@c@a@c@a@c@OSQQMMACi@k@EEKKeAkAOQOQQQQSOQc@e@a@g@s@u@OQQSq@w@a@c@QQMOACa@c@QSy@_AIIOQQSa@e@QQQS]_@]a@IIq@w@QSUWKKQSOQQQQSOQc@e@OQQSOQQQQSGGY[QSa@c@QOQQQOQQSOQQYUSOIISMQMQOSMg@]QKMIYQSKg@WQKMGGCSKSISKSIKEOGa@OSIUGqAa@UGg@Mk@Mi@Ki@KA?}@MUCi@GUA_AG_ACW?SAU?U?U?S?A?k@@S@U@aAFU@O@C@U@}@Li@FWDUDi@JSDUFA?g@LUFSFq@RoAb@sBp@mBn@[J[JUHg@P}@X}@ZSFaAZOFSHi@PUFSHi@PSFC@e@NSH}@Xa@NG@SFSHi@Pg@Pi@Pi@PSFUHSFEBMDSFi@Pg@PUHq@Ts@Ve@Le@NGBu@Vo@Tg@PsAb@i@P[JKDoAb@WHQFC@e@Ni@PUHOFC?i@RSF_Bh@o@Ti@Pg@P_AZ{@XUHSF}@ZSFSFi@RUFSFSFUFC?QDSDQBC@UDOBYBI@M@Q@UBU@k@DG?w@Fk@D_AFi@DmAHI?UBQ@WDU@SBUDOB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.90516299999999,
+                        "lng" : -78.6229996
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "12.7 km",
+                        "value" : 12717
+                     },
+                     "duration" : 
+                     {
+                        "text" : "8 mins",
+                        "value" : 451
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.0606295,
+                        "lng" : -78.62213059999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eON-115 N\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eON-35 N\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "ekgkG~ww~MYFUF[FMDg@Nm@TeCz@[Jg@P}@\\i@PYJy@Xg@PSHg@Pk@Pg@RKB]LSFQHA?UFID[LWH_@L]JSHSHE@ODSHSHC@QDQHUFg@PIB_@NSFSFUHg@P}@XGDa@LSHg@PUFYJMDUHSH_@LIDa@LcA\\SHSD[Ja@LODYJk@NQDA?SDUFUDSDA?SDSBUDM@[DG@M@UBk@FQBM?I@i@BW@Q@S@W@U?S@W?S?U?U?SA]AU?QAWAi@Cm@EUCSCUCKA_@Eg@Go@IICq@Ia@Ga@EsASk@Gk@I_AM[Ee@GYEWESC_AMSCk@GWCSASAYASAUAS?W?U?i@?U@U@O?[BUBa@DG?UBWDQBWD_AL_ALUDA?s@JKBi@FSD_@DaBVe@FC@yBZK@c@Fm@JSBQBC@UDSDWDG@a@JUDg@NUFSHMDGBQFk@RUHC?OFSHi@Pg@PUHg@Ri@Pi@Pg@Ri@PSHUHKDG@{@Zk@Rg@PUHo@Ti@Rk@Re@Pg@PUHUHSFUHSHSFSHUHQFWJSFSHSHWHQFSFA@SHg@PWHSHSFUHODSFWFQFUDOBE@UDSDUDUDSBUBWBU@G@K@U@Q@A?W@I?K?Q@U?U?U?C?QAU?SAYAUASCSAQCE?SCGAA?KASEC?SCOCCAUEWGSEQEA?SGIC_@KMEEAUIUISIIEKEUKQISISKGEKGQKUMSMUMOKIGKGSOKISOEEECKKQOQOSQSOOMSQKKECOMQQGEKKQOQOQOSOACOKc@_@e@a@qCaCk@g@i@e@CCSQOMYUKKw@q@USKIOMCCq@k@YWSOOOAASOQOMMCCQOQOSOKKEESQQOGEKKQOKKECQOQOSQOMSOQQQOQOSQOMAASOQOa@_@SQe@_@QQa@]AASOQOKKEEQOQOSOCEKISOSOAAOKAASOIEIESMAAc@UUKSISKSGUIEAMESGUGUEUESEWESAKAGAYCUAUAU?I?I?U?U?U@Y@SBS@WDSBYDQDOBMDMBKBGBSDYHUHg@NWHSHWHu@VWH_@JKDUHi@NQFWHSHSFUHE@MDUHQFUFSHUFUHUHODC@UHSFG@IDUFWHSHSFMDE@UHSFSHWFIDG@UHSHKBIBSFKDIBUFSHi@PSFg@PQDYJUFSHSFWHSFQFUFUHi@PUFUFSFUFg@PSDSHYHSFE@QDSHSFUFQFSFWHSFUFIBKBSFSFWHYHGBIBSFUHUFG@MDA@ODk@PSFUFUFKDE@i@PQDWHMDG@i@PYHUFQFC@E@MDUFm@Rc@Lm@Ng@Jk@L]FC?SBo@H]B]Be@Bo@BgADU@E?G?M@M?U@U@W@UBU@SBSBUDSDUDWDODA?WHUFSFSFUHUFSHSFi@PODc@Ns@Vi@NSHUHUFSHSFUHODC@QFWHUHSFSFSHSFUHUFKDGBUFCBODUHg@PUFg@Pk@PUHi@Py@XUFOFGBSFSFKDGBi@NSHUHSFUHs@T]LUFUHA?OFUHUFQFC@SFUHSFQFUFUFSDUFSDE?MBC@SBM@G@UBU@I?I@W@Q?K?K?I?I?WAU?SC[CUAUEWESCSEWGMEEASGA?SISGUKSIQIi@USIA?CCMEWMc@Sk@USISKSGUISGAASGSESEAAUEGAOCGAKA_@EKAUCUASAU?U?W?Q?W@S@S@O@I@Q@QBWDSBQDSDC@QDSFC@SFKBKDQDSHUHi@PSFSFUHSFWJSFUHKDE@SFWJSFSFUHUHQFSFSHQFUFMD_@Li@RSFSFIDc@LOFC@qC~@SFOFE@SFUHSHSFSFUHMDGBSHQFSFWHSFOFC@UHUFUHSFOFYHSHSFMDGBSHSFUFUHQFWHSHQFC?SHSFSHUFSFWJQFWHQFODE@SHWHSFSHSFUHE@ODQFA@WHQFUHSFSFUHUHSFUHSFSHUHUHSFSFUHC?QHQDUHWHSF[HKDUFg@JA@SDWFUDUFUDYFw@Nk@JUFUDk@JSDmB^}@RSDi@NSFUHC@QFSFMFEBWJGBKDSJSJOJULQJUNOJUNQLSNSLQLSNSLOLQLSNQLSNSLSNQLSNQLQLOJCBSNQLSNOJSLSNSNSNQLOJMJGDQLQLUNSNQJe@ZMHEBSLQHSJUJQFA@QFSHUFQFC@SDSFSBQDC?SDWBSBU@S@S@A?O@E?Q?_@?i@?i@E[CIAGAc@GYGm@Oy@WYKUKYMYMCA]SUOUOSOOK?ACCSOSQe@_@OOEESSSQUU"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.9520292,
+                        "lng" : -78.6062415
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 757
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 48
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.0634349,
+                        "lng" : -78.62509319999999
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e19\u003c/b\u003e for \u003cb\u003eON-35\u003c/b\u003e toward \u003cb\u003eLindsay\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "}q|kGh{z~MK]?CAAMQIKKMKQOWGUIo@A]?G@G?A@C@I@G@IBG@C@ABGBEBEFIDEDCDEFCDCHAB?@AF?@?B?B@@?D@F@D@B@DBDBBBDB@DBBBBBF@DBFBJBJ@H@H?J?L?LAHAJAHAFAFABADCHCDCDCFEFEFCDGFCFGFML[^[^q@z@CBW\\A@STILGNUZe@h@_@`@WZq@v@sA|AGJs@v@]\\]\\UR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.0606295,
+                        "lng" : -78.62213059999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "31.0 km",
+                        "value" : 30952
+                     },
+                     "duration" : 
+                     {
+                        "text" : "21 mins",
+                        "value" : 1282
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.329332,
+                        "lng" : -78.723125
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eON-35 N\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "mc}kGxm{~MWPGDUNC@KDKFQHOHIB]PMDMDA@MDI@C@KDSDMBMBKBM@MBK@Q@C?M@M@M?M?K?O?K?M?_@CYAmAGu@ESAq@ESAmAGcAGeAEI?mEUaCKmCOc@CoAGk@CsAIs@CYCcBIw@Ai@CeBCsAAw@?g@AgBAkBAeCCs@AM?w@AKA_@AqAAaAAiAAC?g@@u@@M@WBm@De@Dq@Fa@Hk@Jo@Na@Ja@J_@LYJKBQF]Jo@Re@NC@WH[JQFUFKDIB]Ja@Nm@POFa@L}@Z}@V}@XUHw@VkCx@uGtBaAZcAZe@Nc@NG@o@RmA`@}@Xm@Ro@Rm@R_AZiA\\_AXyAf@{Ad@}Ad@o@T{C~@_Bh@gBj@ODQFkDfAKB{Ad@gBh@oExAkC|@[Jc@NODu@T_AXm@PQFuBn@[Jq@TC@y@VwCfAgBr@sBx@?@a@NA@a@N_Bn@eE`BwD|A[L[LmAf@iBt@q@VGBq@Tu@VA?_@LA@QF{Bt@{Af@C@c@N_@LA?_@LQFs@TeA^cA\\gA^]La@Ly@Vm@TeBl@cAZsAb@{Af@c@Ng@NMF}@Xu@Va@No@TiBl@oAb@iBl@yBt@QFa@LcA^C?]Lc@LaA\\A?a@Na@La@Na@LA?a@Ny@Xm@RgCx@C@aBj@u@TuAf@{Af@_AZa@NIBuFjBuAd@_Bf@sAd@GB}@XKDcA\\G@yAf@{Af@uBr@IBYJs@Tq@T_@LA@eA\\a@La@NC@aBh@GBYJa@Nc@N]LC?cA^UJKDaA^iAf@aEfBeBt@e@P{Ap@E@eCdA}D`Bm@XwHbDo@XYLa@PcA`@OFqAh@uAd@u@VoBn@{@Zo@RwAh@]LiBn@q@T{CfAa@LoFlBa@LqCbA{@XcA\\oFlBgC|@{Af@oAb@{FpBUHcA\\sAd@a@Nc@NiDjAw@Vo@Tm@Ro@VgFlByDxAm@TyAh@gC~@_@LgBp@WJmAd@a@NaA^qAd@}@\\c@Pg@P[Hg@Lk@L]Fa@Hq@J[Bq@FG?w@Be@@kA?y@AyAK_@EQAKAoAQq@K}@M}@Mc@Gu@MaAQoASoAUeAQkASeASs@McAQkASsAS}@Q}@OeAQkAQ_AM[EeAMIA}@IaAG_@Ac@CE?o@?QAc@A_@?{@?o@B_ABi@BE?kBJk@Fg@Fu@H{@JeAHc@D[H_AVo@N_ATYHg@LwBn@aA\\o@TiCz@k@RWJa@Na@LC@aBl@a@NE@[LuAf@a@No@VSFQFsAf@a@Ne@PkG|Ba@Ns@XOFSFkAb@G@cA`@cA\\QFUH_Bl@QHODID}Bx@ID{Aj@QFOFIBWJeA\\cA`@E@a@Na@N[LeBp@m@T}An@gHlC]Na@NkEbByAh@oAd@y@ZoBv@SHMFaA^eA`@a@Na@Pa@NGB_C|@iE`Ba@PqAd@w@X_A\\mAd@[LiBn@cBn@_@LkBp@{Ah@iBp@]La@NgC|@a@NsAd@s@VA?kFlBA@eCz@C@mBp@w@ZC?gEzAC@i@R_EvAmBp@gC|@c@PSFqBt@C@e@PwAf@GBC@]JMFyBv@SH{Aj@eBn@eBl@eA^eBl@]Je@Pa@N_A\\qE~AE@[LqIxCcGtByDrAiC~@c@N?@gC|@OFQFcA\\a@Na@NeA\\oBr@sCbAKFWJIDSHa@Ro@Xq@^OHaB|@QJa@Ve@XwAz@cAj@}A`Aa@TULKF}A`AaAl@WNEBa@V_@Ta@T}@j@_@Ta@V]RA@gAn@yBrA_@RKHkC~AkAp@}EtCCBaB`A_Aj@_@T_Aj@A?GDw@d@_Aj@aAl@i@ZULg@\\_Aj@eFhDaAj@_Ah@qAx@OHa@TC@_@Re@Tm@VKDSHMDE@q@Ts@T]JIBYHyAb@gDbAyBp@a@Lo@ReGhBQFs@TeBh@c@LIBy@Tc@LcAZa@Lo@ReFzAa@La@LcBh@IBmBj@wAd@aBd@eA\\a@Lc@LeBh@{Bp@ODa@LsGnBcAZMDUFeBh@mDfAgF|AmA^iCv@a@NKBWHsCz@}Ad@wBp@uA`@i@NoDhA{C|@aAZwA`@}DlAaCt@E@k@Pa@Ja@F[Fa@FQBm@H_AFO@M@o@Bm@@s@Am@Au@G}@Ic@EC?_@GIAYGu@QuBg@aDw@sCq@i@Ma@Kc@KmBe@mD{@wDaAsA[wA]gAWw@Oi@K_AKe@Ec@Ca@CY?k@AQ?}@@[@W@a@BA?{@Hm@Fo@La@HWFa@JSFg@Ny@VkA`@gA^]JKD{Bt@qGxBeA\\eDhAQFgBl@iXhJKBa@Nw@XgCz@MDw@VcA^KDkDjAUHKBgBl@SH}@ZkA^m@TUHw@V{@XUHa@NMDg@PYJUHE@w@Xs@VoA`@a@NqA`@wBr@OFMBUHKD{Bt@MBo@TG@KDUHKBgCx@{Bv@sC|@YJMBmA`@WHUHMDoBn@KB}Bt@}Af@UHKBKDIBa@Lo@T{Ad@iA^C@iA\\q@TyAd@o@RiA^kA`@}Af@{@X{Ad@_Bh@uDjAkA`@gF`BmDhAg@P_Bh@{@XsCz@g@P_Bh@c@LYJkA^qC|@wAd@mFdB]L}GzBwC`AgEvAyDnAyE|AaEtAoEvAu@Va@NiBl@_AZaBh@YHeBj@_@LkA`@{@ZwBr@iDpAC@mA`@kBf@YJoAXiE|A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.0634349,
+                        "lng" : -78.62509319999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.1 km",
+                        "value" : 2060
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 153
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3469849,
+                        "lng" : -78.7309563
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eLindsay St S\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKawartha Lakes County Rd 15\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Lindsay St S\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "iaqmGnrn_NeBr@WJk@P[JaJlCeIhCe@LkDhAqAb@SHiCx@o@Tm@R_DbAyAh@QFgC|@uAf@a@Na@NKBUJa@NeA\\cA^KBoCbAE@eBl@a@NcA^sBt@{@ZeBl@cA\\cA^yAf@kEzAa@NgBl@a@NaBl@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.329332,
+                        "lng" : -78.723125
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1109
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 116
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3437561,
+                        "lng" : -78.74410519999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMary St W\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKawartha Lakes County Rd 19\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "sotmGncp_NR~AJn@^nCT|AJt@n@tE~AnLHn@n@pEVrAXjC^hCXdBVv@JZj@pAz@jED^d@tDr@pF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3469849,
+                        "lng" : -78.7309563
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 197
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3420667,
+                        "lng" : -78.7433776
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAdelaide St S\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "o{smGtur_NtAe@bA]`@MtC_A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3437561,
+                        "lng" : -78.74410519999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 136
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 32
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3414172,
+                        "lng" : -78.7419474
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAlbert St S\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "}psmGbqr_NJKHIFKXaAr@}BPm@BM"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3420667,
+                        "lng" : -78.7433776
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "20 m",
+                        "value" : 20
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.34126,
+                        "lng" : -78.7420679
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{lsmGdhr_N^V"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3414172,
+                        "lng" : -78.7419474
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "41 m",
+                        "value" : 41
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3410364,
+                        "lng" : -78.7416585
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{ksmG|hr_Nj@qA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.34126,
+                        "lng" : -78.7420679
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "wc}lGpj|qMfThoAih@zIcd@~GgQlRuQhAm[{Fuv@tDqKXyEL?aQiBoHeCKvENs@nZyKVaZl@eM`@ac@gHU`j@kRfeByGzs@}a@vhBsd@hmAhDxr@bHhp@h@vrBzCjcD`J~lFr]vbQdZdgRpPhiFrFvjAnS~bA`Nvt@f@ny@cEfv@rTdmA`w@f_DtXrnDnz@~nLxKryAQxb@kEpIfGA|z@ye@naCys@nrAyh@h_Ama@~WaCh{@cAvsAcBduHyGruAiDzRlM~_@da@dx@t_@d_@xi@~fAl|BfaBjoAta@d`@dPuCh~@sb@p`@h@fe@zIj^xJzSli@nLl^xPxEnu@hSjM`KtcAfRfr@dPr\\pYzYhAvJqMrRfY|x@~kAro@jt@feA``C~[rsAhR`m@vy@|~@zOoH`G{LqVlVmC{@iJnHoP|_AqJhn@yAzJiEfKma@c_@iOoJee@mYul@_k@ah@_l@yWeImTuFsPlMyUFyUu\\aP{d@}MwOsf@iMkb@kK}HfEyPl_BkRb}BgPvrAsw@nm@{`A`a@{F|n@aHxvA{F`gBfb@nkG_H~pAqJfb@lVldCxGbgAoGdi@X|^fW~nAf_@fyAr}@nzDnQlfBgJtmAgKxHo^|D_k@rJqUvo@aRdYyw@rt@_fClaCc`Ad}CiQpk@gOdTk~@la@kDo@wCwBaHgAiDhCmY~Ks~Bv|@iv@jYkh@dWw^~\\uO~JgCiHtCM|AnoAnV|~@z_AzuDzNh_AfQ~f@nb@|q@fUtm@`p@|cCfYxrBfHx{A`T`e@fk@xs@~LfQ|Hn]tDfgArh@zoCpm@|w@|^jkBdtAxuEjs@xrGtOn`CxTvuDfn@x`G|SddBpNzeBlJruAcLht@sQlm@mGdrA_Ep~AxMpgA|o@xrB~Jjo@vA~bAvWto@|]~rAzZbeCe@lw@oN|s@mGxZQzb@vg@jdDd\\rqBvSpmDnJbvBlR|}Bjw@n|Fz|@luGdcBb`Mbz@fsG|_AxzHp\\|nCfB|g@}PgMgq@{t@yn@qr@_TaUwX}Ka\\fBme@vOa|@rVsy@xUmUpFmZwA_[_Ak^pG{p@|Se^_Iwf@mb@qOuLkRaAqf@tOah@pOmvAtYcQaGcP`@ai@jQie@xNki@nWoPpEqTiKJsHjAdEy_@`[w~@cD}e@vDu}Bju@ajBno@kaCr|@w`Bzk@oTjF}ZaDus@_Few@zUstBfw@_oClaA_bBr`Aq{Cb~@m_A_OilAl[}bBnj@qrEbzAc_@pM}QtGwJhDa@lI|Gzf@pFvXnF~CrDaBnDuH"
+         },
+         "summary" : "Sir John A. Macdonald Blvd.",
+         "warnings" : [],
+         "waypoint_order" : 
+         [
+            0,
+            1
+         ]
+      }
+   ],
+   "status" : "OK"
+}
