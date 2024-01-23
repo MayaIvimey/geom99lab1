@@ -1,7 +1,10 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 3,
-    center: { lat: 49.24595168423854, lng: -83.16636863826454 }, 
+    zoom: 14,
+    center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
+  /*Javascript inspired by the night mode script 
+  https://developers.google.com/maps/documentation/javascript/examples/style-array#maps_style_array-javascript
+  */
    styles: [
       { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
       { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
