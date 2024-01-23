@@ -1,5 +1,5 @@
 const difference = 5;
-const minzoom = 3;
+const minzoom = 10;
 const maxzoom = 17;
 
 
