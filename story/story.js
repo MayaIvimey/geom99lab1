@@ -97,7 +97,8 @@ function initMap() {
     ...mapOptions,
   });
  overview = new google.maps.Map(document.getElementById("overview"), {
-    ...mapOptions,
+    center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
+    zoom: 9,
     disableDefaultUI: true,
     gestureHandling: "none",
     zoomControl: false,
