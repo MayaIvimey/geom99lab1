@@ -1,4 +1,4 @@
-const difference = 3;
+const difference = 5;
 const minzoom = 3;
 const maxzoom = 12;
 
