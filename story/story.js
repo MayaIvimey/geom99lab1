@@ -1,6 +1,6 @@
 const difference = 5;
 const minzoom = 3;
-const maxzoom = 12;
+const maxzoom = 17;
 
 
 function initMap() {
