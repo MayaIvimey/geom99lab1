@@ -1,7 +1,8 @@
+/*
 const difference = 5;
 const minzoom = 10;
 const maxzoom = 17;
-
+*/
 
 function initMap() {
   const mapOptions = {
@@ -101,7 +102,7 @@ function initMap() {
     gestureHandling: "none",
     zoomControl: false,
   });
-  
+/*  
  function clamp(num, min, max) {
     return Math.min(Math.max(num, min), max);
   }
@@ -116,6 +117,6 @@ function initMap() {
       ),
     );
   });
-
+*/
 }
 
