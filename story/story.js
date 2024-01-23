@@ -2,11 +2,12 @@ const difference = 3;
 const minzoom = 4;
 const maxzoom = 9;
 
+
 function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
+  const mapOptions = {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
-  }
+    zoom: 15,
+  };
 }
   map = new google.maps.Map(document.getElementById("map"), {
     ...mapOptions,
