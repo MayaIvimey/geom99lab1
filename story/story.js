@@ -1,7 +1,36 @@
+const difference = 3;
+const minzoom = 4;
+const maxzoom = 9;
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 14,
+    zoom: 15,
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
+  
+}
+                                  
+ overview = new google.maps.Map(document.getElementById("overview"), {
+    ...mapOptions,
+    disableDefaultUI: true,
+    gestureHandling: "none",
+    zoomControl: false,
+  });
+  
+ function clamp(num, min, max) {
+    return Math.min(Math.max(num, min), max);
+  }
+
+  map.addListener("bounds_changed", () => {
+    overview.setCenter(map.getCenter());
+    overview.setZoom(
+      clamp(
+        map.getZoom() - difference,
+        minzoom,
+        minzoom,
+      ),
+    );
+  });
+
   /*Javascript inspired by the night mode script 
   https://developers.google.com/maps/documentation/javascript/examples/style-array#maps_style_array-javascript
   */
