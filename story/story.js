@@ -7,34 +7,7 @@ function initMap() {
   const mapOptions = {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 15,
-  };
-}
-  map = new google.maps.Map(document.getElementById("map"), {
-    ...mapOptions,
-  });
- overview = new google.maps.Map(document.getElementById("overview"), {
-    ...mapOptions,
-    disableDefaultUI: true,
-    gestureHandling: "none",
-    zoomControl: false,
-  });
-  
- function clamp(num, min, max) {
-    return Math.min(Math.max(num, min), max);
-  }
-
-  map.addListener("bounds_changed", () => {
-    overview.setCenter(map.getCenter());
-    overview.setZoom(
-      clamp(
-        map.getZoom() - difference,
-        minzoom,
-        minzoom,
-      ),
-    );
-  });
-
-  /*Javascript inspired by the night mode script 
+     /*Javascript inspired by the night mode script 
   https://developers.google.com/maps/documentation/javascript/examples/style-array#maps_style_array-javascript
   */
    styles: [
@@ -117,5 +90,32 @@ function initMap() {
         stylers: [{ color: "#17263c" }],
       },
     ],
+  };
+
+  map = new google.maps.Map(document.getElementById("map"), {
+    ...mapOptions,
   });
+ overview = new google.maps.Map(document.getElementById("overview"), {
+    ...mapOptions,
+    disableDefaultUI: true,
+    gestureHandling: "none",
+    zoomControl: false,
+  });
+  
+ function clamp(num, min, max) {
+    return Math.min(Math.max(num, min), max);
+  }
+
+  map.addListener("bounds_changed", () => {
+    overview.setCenter(map.getCenter());
+    overview.setZoom(
+      clamp(
+        map.getZoom() - difference,
+        minzoom,
+        minzoom,
+      ),
+    );
+  });
+
 }
+
