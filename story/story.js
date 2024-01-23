@@ -7,7 +7,10 @@ function initMap() {
     zoom: 15,
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
   }
-}                                  
+}
+  map = new google.maps.Map(document.getElementById("map"), {
+    ...mapOptions,
+  });
  overview = new google.maps.Map(document.getElementById("overview"), {
     ...mapOptions,
     disableDefaultUI: true,
