@@ -14,7 +14,7 @@ new google.maps.Marker({
     map,
     title: "Cogro",
   });
-
+map.setMapTypeId('terrain');
  overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 9,
