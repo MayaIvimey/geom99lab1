@@ -9,6 +9,14 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     ...mapOptions,
   });
+  const image =
+    "coffee.png";
+  const beachMarker = new google.maps.Marker({
+    position: { lat: 44.22901925950561, lng: -76.49484263870534 },
+    map,
+    icon: image,
+  });
+  
  overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 9,
@@ -100,19 +108,5 @@ function initMap() {
     zoomControl: false,
   });
 
-const { Map } = await google.maps.importLibrary("maps");
-  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
-    "marker",
-  );
-const coffee = document.createElement("img");
-
-  coffee.src ="coffee.png";
-
-  const coffee = new AdvancedMarkerElement({
-    map,
-    position: { lat: 44.228231449699514, lng: -76.49599080632522 },
-    content: coffee,
-    title: "A marker using a custom PNG Image",
-  });  
 }
 
