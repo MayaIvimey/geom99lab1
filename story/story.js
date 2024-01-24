@@ -3,12 +3,12 @@
 function initMap() {
   const mapOptions = {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
-    zoom: 15,
+    zoom: 16,
   };
 const image =
-    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
-  const beachMarker = new google.maps.Marker({
-    position: { lat: -33.89, lng: 151.274 },
+    "coffee.png";
+  const coffeeMarker = new google.maps.Marker({
+    position: { lat: 44.22901925950561, lng: -76.49484263870534 },
     map,
     icon: image,
   });
