@@ -100,5 +100,19 @@ function initMap() {
     zoomControl: false,
   });
 
+const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+    "marker",
+  );
+const coffee = document.createElement("img");
+
+  coffee.src ="coffee.png";
+
+  const coffee = new AdvancedMarkerElement({
+    map,
+    position: { lat: 44.228231449699514, lng: -76.49599080632522 },
+    content: coffee,
+    title: "A marker using a custom PNG Image",
+  });  
 }
 
