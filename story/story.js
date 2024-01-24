@@ -3,7 +3,7 @@ function initMap() {
 var mapOptions = {
   zoom: 15,
   center: myLatlng,
-  mapTypeId: 'terrain'
+  mapTypeId: 'hybrid'
 };
 var map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
