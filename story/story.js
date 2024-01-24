@@ -9,7 +9,7 @@ function initMap() {
 map = new google.maps.Map(document.getElementById("map"), {
     ...mapOptions,
   });
-
+map.setMapTypeId('terrain');
 new google.maps.Marker({
     position: {lat: 44.22901925950561, lng:-76.49484263870534},
     map,
