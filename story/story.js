@@ -5,13 +5,13 @@ function initMap() {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 16,
   };
-const image =
-    "coffee.png";
-  const coffeeMarker = new google.maps.Marker({
-    position: { lat: 44.22901925950561, lng: -76.49484263870534 },
+new google.maps.Marker({
+    position: {lat: 44.22901925950561, lng:-76.49484263870534},
     map,
-    icon: image,
+    title: "Cogro",
   });
+
+  
   map = new google.maps.Map(document.getElementById("map"), {
     ...mapOptions,
   });
