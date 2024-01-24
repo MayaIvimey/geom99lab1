@@ -3,7 +3,7 @@ function initMap() {
      center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 16,
     disableDefaultUI: true,
-    mapTypeId: "terrain",
+    mapTypeId: google.maps.MapTypeId.TERRAIN
   });
 
 }
