@@ -5,7 +5,13 @@ function initMap() {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 15,
   };
-
+const image =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+  const beachMarker = new google.maps.Marker({
+    position: { lat: -33.89, lng: 151.274 },
+    map,
+    icon: image,
+  });
   map = new google.maps.Map(document.getElementById("map"), {
     ...mapOptions,
   });
