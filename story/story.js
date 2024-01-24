@@ -9,14 +9,6 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     ...mapOptions,
   });
-  const image =
-    "coffee.png";
-  const beachMarker = new google.maps.Marker({
-    position: { lat: 44.22901925950561, lng: -76.49484263870534 },
-    map,
-    icon: image,
-  });
-  
  overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 9,
