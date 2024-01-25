@@ -1,14 +1,27 @@
-function initMap() {
-
-  
+async function initMap() {
+  const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+    "marker",
+  );
   var myLatlng = new google.maps.LatLng(44.226000090936395, -76.49499549568613);
   var mapOptions = {
   zoom: 16,
   center: myLatlng,
   };
-  var map = new google.maps.Map(document.getElementById('map'),
+  const map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
+  /* styler takes off POIs, makes the map less busy and shows the Queens restaurants better. Code comes from https://developers.google.com/maps/documentation/javascript/style-reference
+and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
+  var customStyled = [{
+    featureType: "poi.business",
+    elementType: "labels",
+    stylers: [
+      { visibility: "off" }
+    ]
+    }];
+  map.set('styles',customStyled); 
 
+  
   const locations = [
     {
       position: { lat: 44.224455413902966, lng: -76.51526780630265},
@@ -51,18 +64,5 @@ function initMap() {
     });
   });
 
-
-
-  
-/* styler takes off POIs, makes the map less busy and shows the Queens restaurants better. Code comes from https://developers.google.com/maps/documentation/javascript/style-reference
-and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
-  var customStyled = [{
-    featureType: "poi.business",
-    elementType: "labels",
-    stylers: [
-      { visibility: "off" }
-    ]
-    }];
-  map.set('styles',customStyled); 
 }
 initMap();
