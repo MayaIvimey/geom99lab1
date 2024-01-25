@@ -21,11 +21,7 @@ map.set('styles',customStyled);
 overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 9,
-  new google.maps.Marker({
-    position: myLatLng,
-    map,
-    title: "Queens University",
-    });
+
    /*Javascript inspired by the night mode script 
   https://developers.google.com/maps/documentation/javascript/examples/style-array#maps_style_array-javascript
   */
@@ -113,6 +109,7 @@ overview = new google.maps.Map(document.getElementById("overview"), {
     gestureHandling: "none",
     zoomControl: false,
   });
+  
 }
 
 window.initMap = initMap;
