@@ -25,10 +25,6 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       title: `${title}`,
       optimized: false,
     });
-    new MarkerClusterer(map, markers, {
-    imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
 
     marker.addListener("click", () => {
       infoWindow.close();
@@ -36,6 +32,10 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.open(marker.getMap(), marker);
     });
   });
+  new MarkerClusterer(map, markers, {
+    imagePath:
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
   
  /* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
 overview = new google.maps.Map(document.getElementById("overview"), {
