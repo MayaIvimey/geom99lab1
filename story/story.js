@@ -35,8 +35,8 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     const marker = new google.maps.Marker({
       position,
       map,
-      title: `${i + 1}. ${title}`,
-      label: `${i + 1}`,
+      title: `${title}`,
+      label: `${i}`,
       optimized: false,
     });
     marker.addListener("click", () => {
