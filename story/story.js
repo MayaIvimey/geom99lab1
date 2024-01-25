@@ -18,7 +18,11 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     ]
     }];
   map.set('styles',customStyled);
-
+new google.maps.Marker({
+    position: {lat: 44.22901925950561, lng:-76.49484263870534},
+    map,
+    title: "Common Ground",
+  });
  
 }
   
