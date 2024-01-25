@@ -16,7 +16,11 @@ var customStyled = [{
     ]
   }];
 map.set('styles',customStyled);
-
+const marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+});
+  
 /* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
 overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
