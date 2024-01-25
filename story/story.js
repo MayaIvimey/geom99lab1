@@ -18,7 +18,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
   map.set('styles',customStyled); 
   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const infoWindow = new google.maps.InfoWindow();
-  const markers = locations.map((location, i) => {
+  const marker = locations.map((location, i) => {
     return new google.maps.Marker({
       position: location,
       label: labels[i % labels.length],
@@ -29,7 +29,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.open(marker.getMap(), marker);
     });
   });
-  new MarkerClusterer(map, markers, {
+  new MarkerClusterer(map, marker, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
