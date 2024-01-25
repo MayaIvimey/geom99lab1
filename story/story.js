@@ -7,6 +7,15 @@ var mapOptions = {
 };
 var map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
+var customStyled = [{
+    featureType: "all",
+    elementType: "labels",
+    stylers: [
+      { visibility: "off" }
+    ]
+  }];
+map.set('styles',customStyled);
+
 }
 
 window.initMap = initMap;
