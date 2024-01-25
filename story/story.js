@@ -30,7 +30,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     [{ lat: 44.22535274880164, lng: -76.49863267430514 },
       "The Lazy Scholar"],
   ];
-  const infoWindow = new InfoWindow();
+  const infoWindow = new google.maps.InfoWindow();
   locations.forEach(([position, title], i) => {
     const marker = new google.maps.Marker({
       position,
@@ -39,7 +39,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       label: `${i + 1}`,
       optimized: false,
     });
-  marker.addListener("click", () => {
+    marker.addListener("click", () => {
       infoWindow.close();
       infoWindow.setContent(marker.getTitle());
       infoWindow.open(marker.getMap(), marker);
@@ -47,4 +47,4 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
   });
 
 }
-initMap();
+window.initMap = initMap;
