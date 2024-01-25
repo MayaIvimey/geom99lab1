@@ -35,6 +35,12 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     [{lat: 44.2259466138417, lng: -76.4913101029787},  "Tim Hortons"],
     [{lat: 44.2243446625935, lng: -76.4913958693823},  "Wallys"],
     [{lat: 44.2279835998832, lng: -76.4927966741805},  "The Tea Room"]
+    [{lat: 44.2290838266688, lng: -76.4947503278646},  "Booster juice"],
+    [{lat: 44.2290566578373, lng: -76.4950444109745},  "Khao Pho Now"],
+    [{lat: 44.2290939169296, lng: -76.4948173830867},  "Pita Pit"],
+    [{lat: 44.2290665290748, lng: -76.4948757211298},  "Tim Hortons"],
+    [{lat: 44.2290963193725, lng: -76.4948556045632},  "Zapias Flatbread Pizza"],
+    [{lat: 44.2290280899587, lng: -76.494854934011},  "Common Ground"]
 
   ];
   const infoWindow = new google.maps.InfoWindow();
@@ -52,18 +58,10 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.open(marker.getMap(), marker);
     });
   });
-
-  
-  const markers2 = arc.map((location, i) => {
-    return new google.maps.Marker({
-      position: location,
-      label: labels[i % labels.length],
-    });
-  });
-  new MarkerClusterer(map, markers2, {
+  new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-  });
+    });
 
  /* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
 overview = new google.maps.Map(document.getElementById("overview"), {
@@ -159,14 +157,5 @@ overview = new google.maps.Map(document.getElementById("overview"), {
   
 }
 
-const arc = [
-    [{lat: 44.2290838266688, lng: -76.4947503278646},  "Booster juice"],
-    [{lat: 44.2290566578373, lng: -76.4950444109745},  "Khao Pho Now"],
-    [{lat: 44.2290939169296, lng: -76.4948173830867},  "Pita Pit"],
-    [{lat: 44.2290665290748, lng: -76.4948757211298},  "Tim Hortons"],
-    [{lat: 44.2290963193725, lng: -76.4948556045632},  "Zapias Flatbread Pizza"],
-    [{lat: 44.2290280899587, lng: -76.494854934011},  "Common Ground"]
-
-  ];
 
 window.initMap = initMap;
