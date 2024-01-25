@@ -16,13 +16,14 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     ]
     }];
   map.set('styles',customStyled); 
-
+  const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const infoWindow = new google.maps.InfoWindow();
   locations.forEach(([position, title], i) => {
     const marker = new google.maps.Marker({
       position,
       map,
       title: `${title}`,
+      label: labels[i % labels.length],
       optimized: false,
     });
 
