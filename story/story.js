@@ -6,6 +6,8 @@ var mapOptions = {
 };
 var map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
+/* styler takes off POIs, makes the map less busy and shows the Queens restaurants better. Code comes from https://developers.google.com/maps/documentation/javascript/style-reference
+and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
 var customStyled = [{
     featureType: "poi.business",
     elementType: "labels",
@@ -15,7 +17,7 @@ var customStyled = [{
   }];
 map.set('styles',customStyled);
 
-
+/* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
 overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
     zoom: 9,
