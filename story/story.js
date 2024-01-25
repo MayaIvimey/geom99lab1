@@ -7,7 +7,7 @@ var mapOptions = {
 var map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
 var customStyled = [{
-    featureType: "all",
+    featureType: "poi.business",
     elementType: "labels",
     stylers: [
       { visibility: "off" }
