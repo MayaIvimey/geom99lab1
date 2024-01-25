@@ -29,12 +29,17 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       "Location 21"],
     [{ lat: 44.22535274880164, lng: -76.49863267430514 },
       "The Lazy Scholar"],
-    [{lat: 44.2280878986305, lng: -76.4978285248609},  "Starbucks"],
-    [{lat: 44.2281801650096, lng: -76.4942129018176},  "Starbucks"],
-    [{lat: 44.2282385680397, lng: -76.4959873678649},  "The Library Café"],
+    [{lat: 44.2280878986305, lng: -76.4978285248609},  
+     "Starbucks"],
+    [{lat: 44.2281801650096, lng: -76.4942129018176},  
+     "Starbucks"],
+    [{lat: 44.2282385680397, lng: -76.4959873678649},  
+     "The Library Café"],
     [{lat: 44.2259466138417, lng: -76.4913101029787},  "Tim Hortons"],
-    [{lat: 44.2243446625935, lng: -76.4913958693823},  "Wallys"],
-    [{lat: 44.2279835998832, lng: -76.4927966741805},  "The Tea Room"]
+    [{lat: 44.2243446625935, lng: -76.4913958693823},  
+     "Wallys"],
+    [{lat: 44.2279835998832, lng: -76.4927966741805},  
+     "The Tea Room"]
     [{lat: 44.2290838266688, lng: -76.4947503278646},  "Booster juice"],
     [{lat: 44.2290566578373, lng: -76.4950444109745},  "Khao Pho Now"],
     [{lat: 44.2290939169296, lng: -76.4948173830867},  "Pita Pit"],
@@ -58,10 +63,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.open(marker.getMap(), marker);
     });
   });
-  new MarkerClusterer(map, markers, {
-    imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
+
 
  /* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
 overview = new google.maps.Map(document.getElementById("overview"), {
