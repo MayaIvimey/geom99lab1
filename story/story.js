@@ -52,7 +52,14 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     [{lat: 44.2290963193725, lng: -76.4948556045632},  
      "Zapias Flatbread Pizza"],
     [{lat: 44.2290280899587, lng: -76.494854934011},  
-     "Common Ground"]
+     "Common Ground"],
+    [{lat: 44.2268050102339, lng: -76.4970993237055},  
+     "Flipit"],
+    [{lat: 44.2269764367783, lng: -76.4972396705885},  
+     "Pita Pit"],
+    [{lat: 44.2269741510944, lng: -76.4971391949791},  
+     "Pizza Pizza"]
+
 
   ];
   const infoWindow = new google.maps.InfoWindow();
