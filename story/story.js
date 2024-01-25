@@ -1,4 +1,4 @@
-async function initMap() {
+function initMap() {
   var myLatlng = new google.maps.LatLng(44.226000090936395, -76.49499549568613);
   var mapOptions = {
   zoom: 16,
@@ -41,22 +41,18 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     },
   ];
   const infoWindow = new InfoWindow();
-  locations.forEach(({ position, title }, i) => {
-    const pin = new PinElement({
-      glyph: `${i + 1}`,
-    });
-    const marker = new AdvancedMarkerElement({
+  locations.forEach(([position, title], i) => {
+    const marker = new google.maps.Marker({
       position,
       map,
       title: `${i + 1}. ${title}`,
-      content: pin.element,
+      label: `${i + 1}`,
+      optimized: false,
     });
-  marker.addListener("click", ({ domEvent, latLng }) => {
-      const { target } = domEvent;
-
+  marker.addListener("click", () => {
       infoWindow.close();
-      infoWindow.setContent(marker.title);
-      infoWindow.open(marker.map, marker);
+      infoWindow.setContent(marker.getTitle());
+      infoWindow.open(marker.getMap(), marker);
     });
   });
 
