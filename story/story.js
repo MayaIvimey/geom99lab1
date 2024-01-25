@@ -40,9 +40,6 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       title: "The Lazy Scholar",
     },
   ];
-  const infoWindow = new InfoWindow();
-
-  // Create the markers.
   food.forEach(({ position, title }, i) => {
     const pin = new PinElement({
       glyph: `${i + 1}`,
@@ -52,16 +49,6 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       map,
       title: `${i + 1}. ${title}`,
       content: pin.element,
-    });
-
-    // Add a click listener for each marker, and set up the info window.
-    marker.addListener("click", ({ domEvent, latLng }) => {
-      const { target } = domEvent;
-
-      infoWindow.close();
-      infoWindow.setContent(marker.title);
-      infoWindow.open(marker.map, marker);
-      });
     });
 
 
