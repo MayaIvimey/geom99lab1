@@ -109,7 +109,11 @@ overview = new google.maps.Map(document.getElementById("overview"), {
     gestureHandling: "none",
     zoomControl: false,
   });
-  
+ new google.maps.Marker({
+    position: myLatLng,
+    map,
+    title: "Queens",
+  }); 
 }
 
 window.initMap = initMap;
