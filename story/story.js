@@ -29,6 +29,13 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       "Location 21"],
     [{ lat: 44.22535274880164, lng: -76.49863267430514 },
       "The Lazy Scholar"],
+    [{lat: 44.2280878986305, lng: -76.4978285248609},  "Starbucks"],
+    [{lat: 44.2281801650096, lng: -76.4942129018176},  "Starbucks"],
+    [{lat: 44.2282385680397, lng: -76.4959873678649},  "The Library Café"],
+    [{lat: 44.2259466138417, lng: -76.4913101029787},  "Tim Hortons"],
+    [{lat: 44.2243446625935, lng: -76.4913958693823},  "Wallys"],
+    [{lat: 44.2279835998832, lng: -76.4927966741805},  "The Tea Room"]
+
   ];
   const infoWindow = new google.maps.InfoWindow();
   locations.forEach(([position, title], i) => {
