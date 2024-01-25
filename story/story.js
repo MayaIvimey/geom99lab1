@@ -1,4 +1,8 @@
 function initMap() {
+  const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+    "marker",
+  );
   
   var myLatlng = new google.maps.LatLng(44.226000090936395, -76.49499549568613);
   var mapOptions = {
