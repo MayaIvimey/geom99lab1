@@ -61,8 +61,8 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.close();
       infoWindow.setContent(marker.title);
       infoWindow.open(marker.map, marker);
+      });
     });
-  });
 
 
   
