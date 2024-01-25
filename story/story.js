@@ -18,7 +18,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     ]
     }];
   map.set('styles',customStyled);
-  const food = [
+  const locations = [
     {
       position: { lat: 44.224455413902966, lng: -76.51526780630265},
       title: "Jean Royce",
@@ -40,16 +40,14 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       title: "The Lazy Scholar",
     },
   ];
-  food.forEach(({ position, title }, i) => {
-    const pin = new PinElement({
-      glyph: `${i + 1}`,
-    });
-    const marker = new AdvancedMarkerElement({
-      position,
+  const markers = locations.map((location, i) => {
+    return new google.maps.Marker({
+      location,
       map,
-      title: `${i + 1}. ${title}`,
+      title: {title},
       content: pin.element,
     });
+  });
 
 
   
