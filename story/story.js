@@ -37,7 +37,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     [{lat: 44.2290665290748, lng: -76.4948757211298},  
      "Tim Hortons"],
     [{lat: 44.2290280899587, lng: -76.494854934011},  
-     "Common Ground"],
+     "Common Ground"]
   ];
 
   const infoWindow = new google.maps.InfoWindow();
