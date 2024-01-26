@@ -17,27 +17,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     }];
   map.set('styles',customStyled); 
 
-  const infoWindow = new google.maps.InfoWindow();
-  locations.forEach(([position, title], i) => {
-    const marker = new google.maps.Marker({
-      position,
-      map,
-      title: `${title}`,
-      label: label: `${i+1}`,
-      optimized: false,
-    });
-     marker.addListener("click", () => {
-      infoWindow.close();
-      infoWindow.setContent(marker.getTitle());
-      infoWindow.open(marker.getMap(), marker);
-    });   
-  });
-
- 
-
-}
-
- const locations = [
+   const locations = [
     [{ lat: 44.224455413902966, lng: -76.51526780630265},
       "Jean Royce"],
     [{ lat: 44.224407319071936, lng: -76.50071114448876},
@@ -79,6 +59,27 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     [{lat: 44.2269741510944, lng: -76.4971391949791},  
      "Pizza Pizza"]
 
-
   ];
+
+  const infoWindow = new google.maps.InfoWindow();
+  locations.forEach(([position, title], i) => {
+    const marker = new google.maps.Marker({
+      position,
+      map,
+      title: '${title}',
+      label: '${i+1}',
+      optimized: false,
+    });
+     marker.addListener("click", () => {
+      infoWindow.close();
+      infoWindow.setContent(marker.getTitle());
+      infoWindow.open(marker.getMap(), marker);
+      });   
+    });
+
+ 
+
+}
+
+
 window.initMap = initMap;
