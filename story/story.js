@@ -55,7 +55,34 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.open(marker.getMap(), marker);
       });   
     });
+  const icons = {
+    tims: {
+      name: "Tim Hortons",
+      icon: "timhortonsresize.png",
+    },
+    starbucks: {
+      name: "Starbucks",
+      icon: iconBase + "starbucks.png",
+    },
+    other: {
+      name: "Other",
+      icon: iconBase + "coffee.png",
+    },
+  };
+  const legend = document.getElementById("legend");
 
+  for (const key in icons) {
+    const type = icons[key];
+    const name = type.name;
+    const icon = type.icon;
+    const div = document.createElement("div");
+
+    div.innerHTML = '<img src="' + icon + '"> ' + name;
+    legend.appendChild(div);
+  }
+
+  map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+  
 /* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
 overview = new google.maps.Map(document.getElementById("overview"), {
     center: { lat: 44.226000090936395, lng: -76.49499549568613 }, 
