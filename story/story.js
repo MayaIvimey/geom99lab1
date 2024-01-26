@@ -81,7 +81,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     legend.appendChild(div);
     }
 
-  map.controls[google.maps.ControlPosition.LEFT_CENTER].push(legend);
+  map.controls[google.maps.ControlPosition.LEFT_TOP].push(legend);
 
 /* inset map from https://developers.google.com/maps/documentation/javascript/examples/inset-map#maps_inset_map-javascript */ 
   overview = new google.maps.Map(document.getElementById("overview"), {
