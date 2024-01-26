@@ -16,23 +16,24 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     ]
     }];
   map.set('styles',customStyled); 
-  const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
   const infoWindow = new google.maps.InfoWindow();
-  const marker = locations.map((location, i) => {
-    return new google.maps.Marker({
-      position: location,
-      label: labels[i % labels.length],
-    });    
-  });
-  new MarkerClusterer(map, marker, {
-    imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  locations.forEach(([position, title], i) => {
+    const marker = new google.maps.Marker({
+      position,
+      map,
+      title: `${title}`,
+      label: label: `${i+1}`,
+      optimized: false,
     });
- marker.addListener("click", () => {
+     marker.addListener("click", () => {
       infoWindow.close();
       infoWindow.setContent(marker.getTitle());
       infoWindow.open(marker.getMap(), marker);
-    });    
+    });   
+  });
+
+ 
 
 }
 
