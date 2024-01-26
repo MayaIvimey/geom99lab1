@@ -16,7 +16,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     ]
     }];
   map.set('styles',customStyled); 
-
+  /* Markers are created, clickable to show the coffee shop name inspired by https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility */ 
    const locations = [
     [{ lat: 44.223620329676336, lng: -76.4992960158313 },
       "Location 21","coffee.png"],
@@ -55,6 +55,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
       infoWindow.open(marker.getMap(), marker);
       });   
     });
+  /* Legend items inspired by https://developers.google.com/maps/documentation/javascript/adding-a-legend#maps_legend-javascript */ 
   const icons = {
     tims: {
       name: "Tim Hortons",
