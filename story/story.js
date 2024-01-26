@@ -1,7 +1,7 @@
 function initMap() {
   var myLatlng = new google.maps.LatLng(44.226000090936395, -76.49499549568613);
   var mapOptions = {
-  zoom: 16,
+  zoom: 17,
   center: myLatlng,
   };
   const map = new google.maps.Map(document.getElementById('map'),
@@ -19,9 +19,9 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
 
    const locations = [
     [{ lat: 44.223620329676336, lng: -76.4992960158313 },
-      "Location 21","timhortonsresize.png"],
+      "Location 21","coffee.png"],
     [{ lat: 44.22535274880164, lng: -76.49863267430514 },
-      "The Lazy Scholar","timhortonsresize.png"],
+      "The Lazy Scholar","coffee.png"],
     [{lat: 44.2280878986305, lng: -76.4978285248609},  
      "Starbucks","starbucks.png"],
     [{lat: 44.2281801650096, lng: -76.4942129018176},  
@@ -36,7 +36,7 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
      "The Tea Room","coffee.png"],
     [{lat: 44.2290665290748, lng: -76.4948757211298},  
      "Tim Hortons","timhortonsresize.png"],
-    [{lat: 44.2290280899587, lng: -76.494854934011},  
+    [{lat: 44.229001642132914, lng: -76.49481446298316},  
      "Common Ground","coffee.png"]
   ];
 
