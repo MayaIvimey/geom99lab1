@@ -22,18 +22,17 @@ and https://stackoverflow.com/questions/3110020/google-maps-api-v3-no-labels*/
     return new google.maps.Marker({
       position: location,
       label: labels[i % labels.length],
-    });
-    marker.addListener("click", () => {
-      infoWindow.close();
-      infoWindow.setContent(marker.getTitle());
-      infoWindow.open(marker.getMap(), marker);
-    });
+    });    
   });
   new MarkerClusterer(map, marker, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
-  
+ marker.addListener("click", () => {
+      infoWindow.close();
+      infoWindow.setContent(marker.getTitle());
+      infoWindow.open(marker.getMap(), marker);
+    });    
 
 }
 
